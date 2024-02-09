@@ -388,3 +388,12 @@ header {
         .modal-container{
           align-items: center;
         }
+
+
+        .title {
+          border: none;
+          font-size: medium;
+          font-weight: bold;
+          width: 100%;
+          text-align: center;
+        }
