@@ -44,10 +44,11 @@
      
     <section class="shop-section" id="csvData">
       {% for i in range(count) %}
-      <form action="/product-form" method="post" enctype="multipart/form-data" id="imageForm">
+      <form action="/view-form" method="post" enctype="multipart/form-data" id="imageForm">
           <div class="shop-link" style="align-items: center;">
               <img src="{{images[i]}}" class="item-image" name="image-url"/>
-              <h4>{{names[i]}}</h4>
+              <input type="file" name = "image" value="{{images[i]}}" style="display: none;" readonly/>
+              <input type=" text" class = "title" name = "name" value="{{names[i]}}" readonly/>
               <div class="card__info">
                   <i class="materials-icon">price</i>{{prices[i]}}
                   <div>
@@ -87,7 +88,7 @@
         var form = document.getElementById('imageForm');
 
         // Set the form's action to the desired endpoint
-        form.action = "/product-form";
+        form.action = "/view-form";
 
         // Submit the form
         form.submit();

@@ -39,10 +39,9 @@
 
   <section class="box">
     <div class="content">
-
       <div class="left">
         <div class="product_img">
-          <image id="uploaded-image" src="/static/upload.png" />
+          <image id="uploaded-image" src= "{{product_image}}" />
         </div>
         <div class="product_details">
           <p><span class="highlight">SKU: <input type="text" value="{{sku_id}}"></span></p>
@@ -90,7 +89,7 @@
                 </li>
               </ul>
               <div class="chat-input">
-                <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+                <textarea placeholder="Enter a message..." spellcheck="false"></textarea>
                 <span id="send-btn" class="material-symbols-rounded">send</span>
               </div>
             </div>
