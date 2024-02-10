@@ -34,7 +34,7 @@
 
           <div class="left">
             <div class="product_img">
-              <image id="uploaded-image" src = "/static/upload.png"/>
+              <image id="uploaded-image" src = "{{product_image}}"/>
             </div>
             <div class="product_details">
                 <p><span class="highlight">SKU: <input type="text" value="{{sku_id}}"></span></p>
@@ -54,9 +54,9 @@
              </p>
 
 
-              <p><span class="highlight">Brand: <input type="text"></span></p>
 
-              <p><span class="highlight">Inventory: <input type="text"></span></p>
+
+              <p><span class="highlight">Inventory: <input type="{{product_qty}}"></span></p>
 
               <button  type="button" id="toggleButton" class="button">
                 <i class="material-icons">mic</i> Toggle Recording</button>
