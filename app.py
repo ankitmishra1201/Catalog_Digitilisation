@@ -2,7 +2,6 @@ from flask import Flask, render_template, request, jsonify
 from PIL import Image
 from pathlib import Path
 from io import BytesIO
-import p
 import cv2
 import google.generativeai as genai
 import pandas as pd
