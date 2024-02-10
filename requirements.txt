@@ -6,3 +6,4 @@ google_generativeai
 googletrans
 matplotlib
 plotly
+pandas
