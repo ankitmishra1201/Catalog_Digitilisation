@@ -257,8 +257,6 @@ section {
     width: 230px;
     margin: 10px;
     border-radius: 5px;
-
-    background: white;
     background-position: center;
     background-size: cover;
     align-items: center;
@@ -374,7 +372,7 @@ input {
 }
 
 #uploaded-image {
-    width: 90%;
+    width: 75%;
 }
 
 .product_details {

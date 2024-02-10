@@ -197,7 +197,8 @@ def populate_data():
 @app.route('/view-form',  methods = ['GET','POST'])
 def viewForm():
     if request.method == 'POST':
-        name = request.form.get('name')
+        image_url = request.form.get('image')
+        image = image_url.replace('./static/Catalog Digitization/ONDC Test Data _ Images/Product Images/', '')
         #add to new_entries
         file_path = 'data/new_entries.csv'
         df = pd.read_csv(file_path, sep=';')
