@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, jsonify
 from PIL import Image
 from pathlib import Path
 from io import BytesIO
-import pytesseract
+import p
 import cv2
 import google.generativeai as genai
 import pandas as pd
@@ -227,4 +227,4 @@ def chatbot():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0/0',debug=True, port=5000)
