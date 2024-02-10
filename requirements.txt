@@ -1,0 +1,8 @@
+Flask
+Pillow
+opencv-python
+pillow
+google_generativeai
+googletrans
+matplotlib
+plotly
