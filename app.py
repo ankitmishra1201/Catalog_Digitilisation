@@ -129,24 +129,24 @@ def productForm():
         # Generate the URL for the CSV file
         csv_url = 'static/new_entries.csv'
     
-    return render_template('product.html',product_name = product_name, sku_id = result, product_category = product_category,  product_price = product_price, product_sub = product_sub, product_image = 'static/upload.png')
+    return render_template('product.html',product_name = product_name, sku_id = int(result), product_category = product_category,  product_price = product_price, product_sub = product_sub, product_image = 'static/upload.png')
 
 
 @app.route('/view-form',  methods = ['GET','POST'])
 def viewForm():
     if request.method == 'POST':
-        name = request.form.get('name')
+        image_url = request.form.get('image')
+        image = image_url.replace('./static/Catalog Digitization/ONDC Test Data _ Images/Product Images/', '')
         #add to new_entries
         file_path = 'data/new_entries.csv'
         df = pd.read_csv(file_path, sep=';')
-
-        product_id = df[df['name'] == name]['id'].values[0] if name in df['name'].values else None
-        product_category=  df[df['name'] == name]['category'].values[0] if name in df['name'].values else None
-        product_sub =  df[df['name'] == name]['subcategory'].values[0] if name in df['name'].values else None
-        product_image_path =  "static/Catalog Digitization/ONDC Test Data _ Images/Product Images/"+df[df['name'] == name]['image'].values[0] if name in df['name'].values else None
-        product_price =  df[df['name'] == name]['price'].values[0] if name in df['name'].values else None
-
-    return render_template('product.html', product_name = name, sku_id = product_id, product_category = product_category,  product_price = product_price, product_sub = product_sub, product_image = product_image_path)
+        product_id = df[df['image'] == image]['id'].values[0]
+        product_category=  df[df['image'] == image]['category'].values[0]
+        product_sub = df[df['image'] == image]['subcategory'].values[0]
+        product_name = df[df['image'] == image]['name'].values[0]
+        product_price =  df[df['image'] == image]['price'].values[0]
+      
+    return render_template('product.html', product_image = image_url, product_name = product_name, sku_id = product_id, product_category = product_category,  product_price = product_price, product_sub = product_sub )
 
 @app.route('/process-audio', methods = ['GET','POST'])
 def processAudio():
