@@ -215,11 +215,15 @@ def viewForm():
 @app.route('/process-audio', methods = ['GET','POST'])
 def processAudio():
     if request.method == 'POST':
-        audio_file = request.files['audio']
+            audio_file = request.files['audio']
         #audio_file.save("static/" + audio_file.filename)
         #text = r.recognize_google(audio,language="en-US")
         #response = model.generate_content(text)
-    return render_template('product.html', processed_audio = audio_file)
+    return render_template('product.html',processed_audio=audio_file)
+
+@app.route("/chatbot", methods=['POST', 'GET'])
+def chatbot():
+    return render_template("chat.html")
 
 
 if __name__ == '__main__':

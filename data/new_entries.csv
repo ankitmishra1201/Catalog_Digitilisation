@@ -1,4 +1,1061 @@
-id;name;image;subcategory;category;price
-1;7up Cool Drink;7up_Cool_Drink_Pet.jpg;Beverages;Food;35.0
-1060;Yardley London Imperial Jasmine Soap;Yardley_London_Imperial_Jasmine_Soap.jpg;Bath;Personal Care;180.0
-7;Aachi Gulab Jamun Mix Buy 1 Get 1 Free;Aachi_Gulab_Jamun_Mix_Buy_1_Get_1_Free.png;Dessert;Food;99
+id;name;category;subcategory;price;image;Qty
+1;7up Cool Drink;Food;Beverages;35;7up_Cool_Drink_Pet.jpg;1
+2;A2b Madras Mixture;Food;Snacks;10;A2b_Madras_Mixture.png;1
+3;A2b Masala Peanuts;Food;Snacks;10;A2b_Masala_Peanuts.png;1
+4;A2b Peanuts Salted;Food;Snacks;10;A2b_Peanuts_Salted.png;1
+5;A2b Pepper Sev;Food;Snacks.;10;A2b_Pepper_Sev.png;1
+6;Aachi Badham Drink Mix Buy 1 Get 1 Free;Food;Dairy;125;Aachi_Badham_Drink_Mix_Buy_1_Get_1_Free.png;1
+7;Aachi Gulab Jamun Mix Buy 1 Get 1 Free;Food;Dessert;99;Aachi_Gulab_Jamun_Mix_Buy_1_Get_1_Free.png;1
+8;Aashirvaad Sharbati Atta;Food;Flour;56;Aashirvaad_Sharbati_Atta.png;1
+9;Aashirvaad Superior MP Atta;Food;Flour;"53;28";Aashirvaad_Superior_MP_Atta.jpg;1
+10;Aavin Premium Milk;Food;Dairy;22.5;Aavin_Premium_Milk.png;1
+11;Ariel Matic Front Loaded Detergent Powder;Household;Laundry;"520;126";Ariel_Matric_Front_Loaded_Detergent_Power.png;1
+12;Air Wick Aromas Of Kashmir Rose & Saffron Freshmatic Refill;Household;Air freshener;299;Air_Wick_Aromas_Of_Kashmir_Rose_Saffron_Freshmatic_Refill.jpg;1
+13;Amul Unsalted Butter;Food;Dairy;2250;Amul_Unsalted_Butter.jpg;1
+14;Anil Iddiyappam Flour;Food;Condiments;36;Anil_Iddiyappam_Flour.png;1
+15;Anil Roasted Vermicelli;Food;Noodles;16.5;Anil_Roasted_Vermicelli.png;1
+16;Annapoorna Gulab Jamun Mix;Food;Dessert;95;Annapoorna_Gulab_Jamun_Mix.png;1
+17;Annapoorna Payasam Mix;Food;Dairy;"10;65";Annapoorna_Payasam_Mix.png;1
+18;Annapurna Iodised Power Salt;Food;Condiments;16;Annapurna_Iodised_Power_Salt.png;1
+19;Appy Apple Juice Drink;Food;Beverages;10;Appy_Apple_Juice_Drink.png;1
+20;Appy Fizz Apple Drink;Food;Beverages;15;Appy_Fizz_Apple_Drink.jpeg;1
+21;Appy Fizz Apple Juice;Food;Beverages;30;Appy_Fizz_Apple_Juice.jpg;1
+22;Aquafina Drinking Water;Food;Beverages;28;Aquafina_Drinking_Water.jpg;1
+23;Airel Colour Detergent Powder;Household;Laundry;260;Airel_Colour_Detergent_Powder.png;1
+24;Ariel Matic Liquid Detergent;Household;Laundry;"225;425";Ariel_Matic_Liquid_Detergent.png;1
+25;Aruna Platinum Super Premium Raw Rice;Food;Rice.;1030;Aruna_Platinum_Super_Premium_Raw_Rice.png;1
+26;Axe Signature Ticket Body Perfume;Personal Care;Personal care;65;Axe_Signature_Ticket_Body_Perfume.png;1
+27;Basmati Queen Royal Tast Of Basmathi Rice;Food;Rice.;156;Basmati_Queen_Royal_Tast_Of_Basmathi_Rice.png;1
+28;Best Salt Iodised Crystal Salt;Food;Condiments;16;Best_Salt_Iodised_Crystal_Salt.png;1
+29;Best Salt Iodised Free Flow Salt;Food;Condiments;17;Best_Salt_Iodised_Free_Flow_Salt.png;1
+30;Boost Chocolate Flavour Energy Drink;Food;Beverages;30;Boost_Chocolate_Flavour_Energy_Drink.png;1
+31;Boost Protein Powder;Food;Beverages;"227;433;32";Boost_Protein_Powder.png;1
+32;Britannia Bourbon Cream Biscuits;Food;Biscuits;20;Britannia_Bourbon_Cream_Biscuits.png;1
+33;Britannia Good Day Butter Cookies Biscuits;Food;Biscuits;50;Britannia_Good_Day_Butter_Cookies_Biscuits.png;1
+34;Britannia Milano Delight Choco Biscuits;Food;Cookies;35;Britannia_Milano_Delight_Choco_Biscuits.png;1
+35;Britannia Nutri Choice Digestives Biscuits;Food;Biscuits;10;Britannia_Nutri_Choice_Digestives_Biscuits.png;1
+36;Britannia Nutri Choice Oats Orange;Food;Cookies;25;Britannia_Nutri_Choice_Oats_Orange_Britannia.png;1
+37;Britannia Tiger Choco Cookies;Food;Biscuits;10;Britannia_Tiger_Choco_Cookies.png;1
+38;Britannia Tiger Krunch Choco Chips;Food;Biscuits;10;Britannia_Tiger_Krunch_Choco_Chips.png;1
+39;Britannia Toastea Multigrain Rusk;Food;Bakery;35;Britannia_Toastea_Multigrain_Rusk.png;1
+40;Britannia Treat Choco Creme Wafers;Food;Dessert;25;Britannia_Treat_Choco_Creme_Wafers.png;1
+41;Britannia Treat Creme Wafers Vanilla Biscuits;Food;Snacks;25;Britannia_Treat_Creme_Wafers_Vanilla_Biscuits.png;1
+42;Britannia Treat Jimjam Biscuits;Food;Cookies;10;Britannia_Treat_Jimjam_Biscuits.png;1
+43;Britannia Treat Kool Vanilla Creme Biscuits;Food;Cookies;10;Britannia_Treat_Kool_Vanilla_Creme_Biscuits.png;1
+44;Bru Gold Coffee Powder;Food;Coffee;"245;120";Bru_Gold_Coffee_Powder.png;1
+45;Bru Green Label Coffee Powder;Food;Coffee;165;Bru_Green_Label_Coffee_Powder.png;1
+46;Bru Instant Coffee Powder;Food;Beverages;"90;165;320";Bru_Instant_Coffee_Powder.png;1
+47;Bru Select Premium Filter Coffee Powder;Food;Coffee;250;Bru_Select_Premium_Filter_Coffee_Powder.png;1
+48;Cadbury 5star New Soft Bar Chocolate;Food;Candy;20;Cadbury_5star_New_Soft_Bar_Chocolate.png;1
+49;Cadbury Bourn Vita;Food;Health drink;199;Cadbury_Bourn_Vita.png;1
+50;Cadbury Bournville Raisin & Nut Chocolate;Food;Confectionery;90;Cadbury_Bournville_Raisin_Nut_Chocolate.png;1
+51;Cadbury Bournville Rich Cocoa 50% Dark Chocolate;Food;Confectionery;45;Cadbury_Bournville_Rich_Cocoa_50_Dark_Chocolate.png;1
+52;Cadbury Dairy Milk Roast Almond Chocolate;Food;Confectionery;40;Cadbury_Dairy_Milk_Roast_Almond_Chocolate.png;1
+53;Cadbury Fuse Chocolate Feast Chocolate;Food;Candy;35;Cadbury_Fuse_Feast_Chocolate.png;1
+54;Cadbury Oreo Cadbury Dipped Biscuits;Food;Snacks;60;Cadbury_Oreo_Cadbury_Dipped_Biscuits.png;1
+55;Golden Oreo Vanilla Flavored Sandwich Biscuits;Food;Snacks;29;Golden_Oreo_Vanilla_Flavored_Sandwich_Biscuits.png;1
+56;Camlin School Students Geometry Box;Stationary;Stationery ;120;Camlin_School_Students_Geometry_Box.png;1
+57;Challenge Active Wash Extra Lime Active Detergent Powder;Household;Detergent;135;Challenge_Active_Wash_Extra_Lime_Active_Detergent_Powder.png;1
+58;Challenge Extra Wash Detergent Cake;Household;Detergent;5.5;Challenge_Extra_Wash_Detergent_Cake.png;1
+59;Challenge Washing Powder;Household;Detergent;50;Challenge_Washing_Powder.png;1
+60;Challenge Whatz Detergent Cake;Household;Laundry;"21;10;16";Challenge_Whatz_Detergent_Cake.png;1
+61;Challenge Whatz Lemon Active Detergent Cake;Household;Detergent;10;Challenge_Whatz_Lemon_Active_Detergent_Cake.png;1
+62;Challenges Cloth Clean Care Matric Washing Powder;Household;Detergent;60;Challenges_Cloth_Clean_Care_Matric_Washing_Powder.png;1
+63;Classmate Longe Size Un Ruled Writing Note;Stationary;Notebooks;50;Classmate_Longe_Size_Un_Ruled_Writing_Note.png;1
+64;Classmate Writing Note;Stationary;Stationary;30;Classmate_Writing_Note.png;1
+65;Close up Everfresh Toothpaste;Personal Care;Oral care;19;Close_up_Everfresh_Toothpaste.png;1
+66;Close up Fresh Attraction Nature Boost, Cardamonm & Tulsi Toothpaste;Personal Care;Oral;50;Close_up_Fresh_Attraction_Nature_Boost_Cardamonm_Tulsi_Toothpaste.png;1
+67;Close up Red Hot Toothpaste;Personal Care;Oral care;48;Close_up_Red_Hot_Toothpaste.jpg;1
+68;Coca Cola Crisp Taste Soft Drink - Tin;Food;Beverages;35;Coca_Cola_Crisp_Taste_Soft_Drink_Tin.png;1
+69;Coca Cola Soft Drink - Pet;Food;Beverages;90;Coca_Cola_Soft_Drink_Pet.jpg;1
+70;Colgate Active Salt Lemon Toothpaste;Personal Care;Oral care;97;Colgate_Active_Salt_Lemon_Toothpaste.jpg;1
+71;Colgate Mouthwash;Personal Care;Oral care;25;Colgate_Mouth_Wash.png;1
+72;Colgate Plax Freshmint Splash Mouthwash;Personal Care;Oral;49;Colgate_Plax_Freshmint_Splash_Mouthwash.png;1
+73;Colgate Sensitive Plus Toothpaste;Personal Care;Oral;115;Colgate_Sensitive_Plus_Toothpaste.png;1
+74;Dabur Gel Toothpaste;Personal Care;Oral care;80;Dabur_Gel_Toothpaste.png;1
+75;Dabur Meshwak Complet Oral Care Toothpaste;Personal Care;Oral care;50;Dabur_Meshwak_Complet_Oral_Care_Toothpaste.png;1
+76;Dabur Red Gel Ayurvedic For Freshness + Effective Oral Care Toothpaste;Personal Care;Oral care;17;Dabur_Red_Gel_Ayurvedic_For_Freshness_Effective_Oral_Care_Toothpaste.png;1
+77;Dettol Antiseptic Liquid;Household;Disinfectant;"249;25";Dettol_Antiseptic_Liquid.png;1
+78;Dettol Instant Hand Sanitizer Orginal;Personal Care;Personal care;89;Dettol_Instant_Hand_Sanitizer_Orginal.png;1
+79;Dettol Re Energize Ph Balaced Handwash Liquid;Household;Hygiene;109;Dettol_Re_Energize_Ph_Balaced_Handwash_Liquid.png;1
+80;Dettol Sensitive Ph Balanced Handwash Combo of 3;Personal Care;Personal Care;122;Dettol_Sensitive_Ph_Balanced_Hand_Wash_Combo_of_3.png;1
+81;Dettol Squeezy Pack Hand Wash;Personal Care;Personal Care;30;Dettol_Squeezy_Pack_Hand_Wash.png;1
+82;Doritos Nacho Cheese Flavour Chips;Food;Snacks;10;Doritos_Nacho_Cheese_Flavour_Chips.png;1
+83;Double Deer Zeera Samba Rice Kaima Rice;Food;Grains;173;Double_Deer_Zeera_Samba_Rice_Kaima_Rice.png;1
+84;Engage Man Perfume Spray M1;Food;Toiletries;200;Engage_Man_Perfume_Spary_M1.png;1
+85;Engage Women Perfume Spray W1;Personal Care;Beauty;200;Engage_Women_Perfume_Spray_W1.png;1
+86;Exo Bacto Scrub;Household;Dishwashing;15;Exo_Bacto_Scrub.png;1
+87;Exo Touch & Shine Combo Of 4 Dishwash Bar;Household;Dishwashing;72;Exo_Touch_Shine_Combo_Of_4_Dishwashe_Bar.png;1
+88;Fair & Lovely Advanced Multi Vitamin Expert Fairness Cream;Personal Care;Cosmetics;145;Fair_Lovely_Advanced_Multi_Vitamin_Expert_Fairness_Cream.png;1
+89;Fair & Lovely Ayurvedic Care Glowing Fairness Cream;Personal Care;Cosmetics;125;Fair_Lovely_Ayurvedic_Care_Glowing_Fairness_Cream.png;1
+90;Fair & Lovely BB Instant Fair Look Make Up Finish Fairness Cream;Personal Care;Cosmetics;79;Fair_Lovely_BB_Instant_Fair_Look_Make_Up_Finish_Fairness_Cream.png;1
+91;Fair & Lovely Fairness Facewash Instant Glow Clean Up Face Wash;Personal Care;Cosmetics;115;Fair_Lovely_Fairness_Facewash_Instant_Glow_Clean_Up_Face_Wash.png;1
+92;Fair & Lovely Instant Glow Cleanup Face Wash;Personal Care;Skincare;"60;20";Fair_Lovely_Instant_Glow_Cleanup_Face_Wash.png;1
+93;Fair & Lovely Men's Instant Fairness Rapid Action Face Wash;Personal Care;Cosmetics;83;Fair_Lovely_Men_s_Instant_Fairness_Rapid_Action_Face_Wash.png;1
+94;Fair & Lovely Men's Instant Oil Clear Magnet Action Face Wash;Personal Care;Personal care;83;Fair_Lovely_Men_s_Instant_Oil_Clear_Magnet_Action_Face_Wash.png;1
+95;Fair & Lovely Moisturising Fairness Lotion;Personal Care;Cosmetics;50;Fair_Lovely_Moisturising_Fairness_Lotion.png;1
+96;Fair & Lovely Sun Protect Multi-Vitamin & SPF 15;Personal Care;Skincare;"108;72";Fair_Lovely_Sun_Protect_Multi_Vitamin_SPF_15.png;1
+97;Fair & Lovely Winter Fairness Moisturisation;Personal Care;Beauty;165;Fair_Lovely_Winter_Fairness_Moisturisation.png;1
+98;Fanta Cool Drink Orange Flavour Pet;Food;Beverages;90;Fanta_Cool_Drink_Orange_Flavour_Pet.png;1
+99;Fanta Cool Drink Orange Flavour Tin;Food;Beverages;35;Fanta_Cool_Drink_Orange_Flavour_Tin.png;1
+100;Fevi Kwik One Drop Instant Adhensive;Stationary;Adhesives;5;Fevi_Kwik_One_Drop_Instant_Adhensive.png;1
+101;Fiama Gel Bar Peach & Avacado Soap;Personal Care;Soap;67;Fiama_Gel_Bar_Peach_Avacado_Soap.png;1
+102;Flair Inky Ceo Smooth Round Nib Liquid Ink Fountain Pen;Personal Care;Office supplies;50;Flair_Inky_Ceo_Smooth_Round_Nib_Liquid_Ink_Fountain_Pen.png;1
+103;Fogg Body Spray;Personal Care;Personal care;185;Fogg_Body_Spray.png;1
+104;Fogg Dynamic Body Spray;Personal Care;Personal care;200;Fogg_Dynamic_Body_Spray.png;1
+105;Garnier Color Naturals 3 Darkest Brown Hair Colour;Personal Care;Beauty;80;Garnier_Color_Naturals_3_Darkest_Brown_Hair_Colour.png;1
+106;Garnier Colour Naturals 6.60 Intense Red Hair Colour;Personal Care;Beauty;180;Garnier_Colour_Naturals_6_60_Intense_Red_Hair_Colour.png;1
+107;Garnier Colour Naturals Mens 1 Natural Black Hair Colour;Personal Care;Beauty;115;Garnier_Colour_Naturals_Mens_1_Natural_Black_Hair_Colour.png;1
+108;Garnier Colour Naturals Womens 1 Natural Black Hair Colours;Personal Care;Beauty;180;Garnier_Colour_Naturals_Womens_1_Natural_Black_Hair_Colours.png;1
+109;Garnier Men Power White Face Wash;Personal Care;Skincare;90;Garnier_Men_Power_White_Face_Wash.png;1
+110;Gems Burst Ice Cream;Food;Dairy;25;Gems_Burst_Ice_Cream.png;1
+111;Gillette Foam Regular Shaving Cream;Personal Care;Personal care;85;Gillette_Foam_Regular_Shaving_Cream.png;1
+112;Gillette Foam Sensitive Shaving Cream;Personal Care;Personal care;199;Gillette_Foam_Sensitive_Shaving_Cream.png;1
+113;Gillette Foam Sensitive Shaving Foam;Personal Care;Personal care;199;Gillette_Foam_Sensitive_Shaving_Foam.png;1
+114;Gillette Fusion Power Shaver;Personal Care;Personal Care;435;Gillette_Fusion_Power_Shaver.png;1
+115;Gillette Permasharp Stainless Shaving Blades;Personal Care;grooming;24;Gillette_Permasharp_Stainless_Shaving_Blades.png;1
+116;Gillette Pure And Sensitive Shave Gel;Food;Toiletries;329;Gillette_Pure_And_Sensitive_Shave_Gel.png;1
+117;Gillette Series Sensitive Skin Shave Gel;Food;Toiletries;85;Gillette_Series_Sensitive_Skin_Shave_Gel.png;1
+118;Gillette Series Ultra Comfort Shave Gel;Personal Care;Personal care;85;Gillette_Series_Ultra_Comfort_Shave_Gel.png;1
+119;Gillette Shave Brush Smoother Shave;Personal Care;Personal care;54;Gillette_Shave_Brush_Smoother_Shave.png;1
+120;Gillette Super Platinum Shave Blade;Personal Care;Shaving;55;Gillette_Super_Platinum_Shave_Blade.png;1
+121;Goorej Aer Pocket Bathroom Fragrance;Household;Air freshener;55;Goorej_Aer_Pocket_Bathroom_Fragrance.png;1
+122;Gokulam Black Dates Seeded;Food;Dried fruit;90;Gokulam_Black_Dates_Seeded.png;1
+123;Gokulam Seedless Dates;Food;Dried fruit;40;Gokulam_Seedless_Dates.png;1
+124;Gold Winner Vanaspathi;Food;Cooking oil;6;Gold_Winner_Vanaspathi.png;1
+125;Gone Mad Gang of 5 Premium Coffee Sticks Gone Mad;Food;Snacks.;50;Gone_Mad_Gang_of_5_Premium_Coffee_Sticks_Gone_Mad.png;1
+126;Grb Butterscotch Soan Papdi;Food;Sweets;65;Grb_Butterscotch_Soan_Papdi.png;1
+127;Grb Chocolate Soan Papdi;Food;Sweets;65;Grb_Chocolate_Soan_Papdi.png;1
+128;GRB Payasam Mix Payasam Mix;Food;Dessert;"35;60";Grb_Payasam_Mix_Payasam_Mix.png;1
+129;Grb Pineapple Soan Papdi;Food;Sweets;65;Grb_Pineapple_Soan_Papdi.png;1
+130;GRB Rasagolla;Food;Dairy;115;Grb_Rasagolla.png;1
+131;Haldiram's All In One All;Food;Snacks;35;Haldiram_s_All_In_One_All.png;1
+132;Haldiram's Aloo Bhujia;Food;Snacks;35;Haldiram_s_Aloo_Bhujia.png;1
+133;Haldiram's Bhujia Sev;Food;Snacks.;35;Haldiram_s_Bhujia_Sev.png;1
+134;Haldiram's Boondi;Food;Snacks;34;Haldiram_s_Boondi.png;1
+135;Haldiram's Gulab Jamun;Food;Dessert;100;Haldiram_s_Gulab_Jamun.png;1
+136;Haldiram's Khatta Meetha;Food;Snacks.;"10;30";Haldiram_s_Khatta_Meetha.png;1
+137;Haldiram's Moong Dal;Food;Pulses;40;Haldiram_s_Moong_Dal.png;1
+138;Haldiram's Mouth Watering Pateesha Soan Cake;Food;Dessert;35;Haldiram_s_Mouth_Watering_Pateesha_Soan_Cake.png;1
+139;Haldiram's Navratan Mix;Food;Snacks;40;Haldiram_s_Navratan_Mix.png;1
+140;Haldiram's Panjabi Tadka Namkeen;Food;Snacks;30;Haldiram_s_Panjabi_Tadka_Namkeen.png;1
+141;Haldiram's Rasagulla;Food;Dessert;100;Haldiram_s_Rasagulla.png;1
+142;Haldiram's Salted Peanuts;Food;Snacks;10;Haldiram_s_Salted_Peanuts.png;1
+143;Haldiram's Soan Papdi;Food;Dessert;"65;30";Haldiram_s_Soan_Papdi.png;1
+144;Haldiram's Soya Sticks;Food;Snacks;10;Haldiram_s_Soya_Sticks.png;1
+145;Haldiram's Tasty Nuts;Food;Snacks;10;Haldiram_s_Tasty_Nuts.png;1
+146;Hauser Germany Liquid Ink Fountain Pen;Stationary;Stationary;50;Hauser_Germany_Liquid_Ink_Fountain_Pen.png;1
+147;Hauser Germany Simply Perfect Oxy Gel Pen;Personal Care;Office supplies;5;Hauser_Germany_Simply_Perfect_Oxy_Gel_Pen.png;1
+148;Heritage Basmati Rice;Food;Grains;139;Heritage_Basmati_Rice.png;1
+149;Hershey's Chocolate Flavour Milk Shake;Food;Dairy;35;Hershey_s_Chocolate_Flavour_Milk_Shake.png;1
+150;Himalaya Active Sport Face Wash;Personal Care;Personal care;83;Himalaya_Active_Sport_Face_Wash.png;1
+151;Himalaya Anti Dandruff Conditioner;Personal Care;Haircare;90;Himalaya_Anti_Dandruff_Conditioner.png;1
+152;Himalaya Anti Dandruff Styling Gel Hair Gel;Personal Care;Hair;48;Himalaya_Anti_Dandruff_Styling_Gel_Hair_Gel.png;1
+153;Himalaya Anti Hair Fall Conditioner Conditions;Personal Care;Haircare;90;Himalaya_Anti_Hair_Fall_Conditioner_Conditions.png;1
+154;Himalaya Clear Complexion Whitening Day Cream;Personal Care;Cosmetics;235;Himalaya_Clear_Complexion_Whitening_Day_Cream.png;1
+155;Himalaya Clear Complexion Whitening Face Wash;Personal Care;Skincare;140;Himalaya_Clear_Complexion_Whitening_Face_Wash.png;1
+156;Himalaya Cucumber & Coconut Soap Buy 3 Get 1;Personal Care;Bath;87;Himalaya_Cucumber_Coconut_Soap_Buy_3_Get_1.png;1
+157;Himalaya Damaged Repair Shampoo;Personal Care;Cosmetics;68;Himalaya_Damaged_Repair_Shampoo.png;1
+158;Himalaya Fresh Start Oil Clear Blueberry Face Wash;Personal Care;Skincare;75;Himalaya_Fresh_Start_Oil_Clear_Blueberry_Face_Wash.png;1
+159;Himalaya Fresh Start Oil Clear Lemon Face Wash;Personal Care;Skincare;75;Himalaya_Fresh_Start_Oil_Clear_Lemon_Face_Wash.png;1
+160;Himalaya Fresh Start Oil Clear Peach Face Wash;Personal Care;Skincare;75;Himalaya_Fresh_Start_Oil_Clear_Peach_Face_Wash.png;1
+161;Himalaya Fresh Start Oil Clear Strawberry Face Wash;Personal Care;Skincare;75;Himalaya_Fresh_Start_Oil_Clear_Strawberry_Face_Wash.png;1
+162;Himalaya Gentle Exfoliating Walnut Face Scrub;Personal Care;Beauty;70;Himalaya_Gentle_Exfoliating_Walnut_Face_Scrub.png;1
+163;Himalaya Herbals Active Fresh Gel Toothpaste;Personal Care;Oral;50;Himalaya_Herbals_Active_Fresh_Gel_Toothpaste.png;1
+164;Himalaya Moisturizing Aloevera Face Wash;Personal Care;Skincare;120;Himalaya_Moisturizing_Aloevera_Face_Wash.png;1
+165;Himalaya Natural Glow Fairness Cream;Personal Care;Cosmetics;80;Himalaya_Natural_Glow_Fairness_Cream.png;1
+166;Himalaya Oil Clear Lemon Face Wash;Personal Care;Skincare;63;Himalaya_Oil_Clear_Lemon_Face_Wash.png;1
+167;Himalaya Oil Free Radiance Gental Cream;Personal Care;Skincare;235;Himalaya_Oil_Free_Radiance_Gental_Cream.png;1
+168;Himalaya Protective Sunscreen Lotion;Personal Care;Skincare;190;Himalaya_Protective_Sunscreen_Lotion.png;1
+169;Himalaya Protein Extra Nourishment Hair Cream;Personal Care;Haircare;80;Himalaya_Protein_Extra_Nourishment_Hair_Cream.png;1
+170;Himalaya Refresging Cleansing Milk;Personal Care;Skincare;83;Himalaya_Refresging_Cleansing_Milk.png;1
+171;Himalaya Refreshing & Clarifying Toner;Personal Care;Skincare;83;Himalaya_Refreshing_Clarifying_Toner.png;1
+172;Himalaya Soothing Body Lotion;Personal Care;Bath;75;Himalaya_Soothing_Body_Loation.png;1
+173;Horlicks Bio Available Nutrients Classic Malt;Food;Breakfast;"215;396";Horlicks_Bio_Available_Nutrients_Classic_Malt_Nutrition_Powder.png;1
+174;Horlicks Chocolate Delight Flavour;Food;Dairy;"199;97";Horlicks_Chocolate_Delight_Flavour.png;1
+175;Horlicks Growth For 3 9 Age. Vanilla Flavour;Food;Nutrition;275;Horlicks_Growth_For_3_9_Age_Vanilla_Flavour_Nutrition_Powder.png;1
+176;Horlicks Junior Orginal Flavour;Food;Baby food;270;Horlicks_Junior_Orginal_Flavour_Nutrition_Powder.png;1
+177;Horlicks Mother Vanilla Flavour;Food;Dairy;220;Horlicks_Mother_Vanilla_Flavour_Nutrition_Powder.png;1
+178;Horlicks Protein+Chocolate Flavour Nutrition Powder;Food;Supplement;280;Horlicks_Protein_Chocolate_Flavour_Nutrition_Powder.png;1
+179;Horlicks Women's;Food;Dairy;270;Horlicks_Women_s_Nutrition_Powder.png;1
+180;Lite Horlicks Badham Flavour;Food;Dairy;278;Lite_Horlicks_Badham_Flavour_Nutrition_Powder.png;1
+181;Horlicks Mother Venilla Flavour;Food;Nutrition;499;Mother_Horlicks_Venilla_Flavour_Nutrition_Powder.png;1
+182;India Gate Basmati Rice Classic;Food;Rice;216;India_Gate_Basmati_Rice_Classic.png;1
+183;India Gate Basmati Rice Dubar;Food;Rice;122;India_Gate_Basmati_Rice_Dubar.png;1
+184;India Gate Basmati Rice Feast Rozzana;Food;Rice;99;India_Gate_Basmati_Rice_Feast_Rozzana.png;1
+185;India Gate Basmati Rice Super;Food;Rice;165;India_Gate_Basmati_Rice_Super.png;1
+186;India Gate Basmati Rice Tibar;Food;Rice;129;India_Gate_Basmati_Rice_Tibar.png;1
+187;Johnson's Active Kids Shiny Drops Shampoo;Personal Care;Beauty;165;Johnson_s_Active_Kids_Shiny_Drops_Shampoo.png;1
+188;Johnson's Baby Shampoo;Personal Care;Baby;55;Johnson_s_Baby_Sampoo.png;1
+189;Johnson's Baby Soap Blossoms;Personal Care;Baby;47;Johnson_s_Baby_Soap_Blossoms.png;1
+190;Johnson's Baby Top To Toe Bath Baby Bath Oil;Personal Care;Baby;45;Johnson_s_Baby_Top_To_Toe_Bath_Baby_Bath_Oil.png;1
+191;K.P. Namboodiri's Aloe Vera Herbal Toothpaste;Personal Care;Oral care;55;K_P_Namboodiri_s_Aloe_Vera_Herbal_Toothpaste.png;1
+192;K.P. Namboodiri's Gel Stronger By Nature Toothpaste;Personal Care;Oral;"85;48";K_P_Namboodiri_s_Gel_Stronger_By_Nature_Toothpaste.png;1
+193;K.P. Namboodiri's Herbal Toothpaste;Personal Care;Oral care;22;K_P_Namboodiri_s_Herbal_Toothpaste.png;1
+194;K.P. Namboodiri's Turmeric Fairness Cream;Personal Care;Cosmetics;45;K_P_Namboodiri_s_Turmeric_Fairness_Cream.png;1
+195;K.P. Namboodiri's Natural Salt Toothpaste;Personal Care;Oral care;23;K_P_Namboodiri_s_Natural_Salt_Toothpaste.png;1
+196;Kellogg's All Bran Wheat Flakes;Food;Cereal;199;Kellogg_s_All_Bran_Wheat_Flakes_Kellogg_s.png;1
+197;Kellogg's Chocos;Food;Breakfast;55;Kellogg_s_Chocos_Kellogg_s.png;1
+198;Kellogg's Chocos Mocns & Stars;Food;Cereal;67;Kellogg_s_Chocos_Mocns_Stars_Kellogg_s.png;1
+199;Kellogg's Corn Flakes Orginal & The Best;Food;Breakfast;295;Kellogg_s_Corn_Flakes_Orginal_The_Best_Kellogg_s.png;1
+200;Kellogg's Corn Flakes With Real Strawberry Puree With Iron Shakti;Food;Breakfast;45;Kellogg_s_Corn_Flakes_With_Real_Strawberry_Puree_With_Iron_Shakti_Kellogg_s.png;1
+201;Kellogg's Muesli Crunch Fruit And Nut;Food;Breakfast;"290;150";Kellogg_s_Muesli_Crunch_Fruit_And_Nut_Kellogg_s.png;1
+202;Kellogg's Muesli Nuts Delight;Food;Cereal;285;Kellogg_s_Muesli_Nuts_Delight_Kellogg_s.png;1
+203;Kellogg's Special K Orginal;Food;Cereal;60;Kellogg_s_Special_K_Orginal_Kellogg_s.png;1
+204;Kinder Joy With Surprise Kinder Joy;Food;Chocolate;40;Kinder_Joy_With_Surprise_Kinder_Joy.png;1
+205;Kinder Schokobons Crispy Kinder;Food;Chocolate;40;Kinder_Schokobons_Crispy_Kinder.png;1
+206;Kissan Mixed Friut Jam;Food;Condiments;135;Kissan_Mixed_Friut_Jam_Jam.png;1
+207;Kissan Tomato Sauce;Food;Condiments;103;Kissan_Tomato_Sauce.png;1
+208;Knorr Supy Noodles Mast Masala;Food;Noodles;15;Knorr_Supy_Noodles_Mast_Masala.png;1
+209;Kurkure Green Chutney Style Chips;Food;Snacks;5;Kurkure_Green_Chutney_Style_Chips.png;1
+210;Kurkure Green Chutney Style Snacks;Food;Snacks;20;Kurkure_Green_Chutney_Style_Snacks.png;1
+211;Kurkure Masala Munch Snacks;Food;Snacks;5;Kurkure_Masala_Munch_Snacks.png;1
+212;Kurkure Multigrain Curry & Herbs Flavour Snacks;Food;Snacks;10;Kurkure_Multigrain_Curry_Herbs_Flavour_Snacks.png;1
+213;Kurkure Puffcorn Yummy Cheese Snacks;Food;Snacks;5;Kurkure_Puffcorn_Yummy_Cheese_Snacks.png;1
+214;Kwality  Wall's Majestic Kesar Pista Ice Cream;Food;Dessert;155;Kwality_Wall_s_Majestic_Kesar_Pista_Ice_Cream.png;1
+215;Kwality  Wall's So Alophonso Mango Ice Cream;Food;Dessert;129;Kwality_Wall_s_So_Alophonso_Mango_Ice_Cream.png;1
+216;Kwality Wall's Blusining Strawberry Ice Cream;Food;Dessert;99;Kwality_Wall_s_Blusining_Strawberry_Ice_Cream.png;1
+217;Kwality Wall's Cassatta Ice Cream;Food;Desserts;55;Kwality_Wall_s_Cassatta_Ice_Cream.png;1
+218;Kwality Wall's Choco Bar Mini;Food;Dessert;10;Kwality_Wall_s_Choco_Bar_Mini.png;1
+219;Kwality Wall's Choco Vanilla Cornetto Ice Cream Choco Cone;Food;Dessert;30;Kwality_Wall_s_Choco_Vanilla_Cornetto_Ice_Cream_Choco_Cone.png;1
+220;Kwality Wall's Chocolate Feast Bar;Food;Dessert;35;Kwality_Wall_s_Chocolate_Feast_Bar.png;1
+221;Kwality Wall's Dazzli Tutti Frutti Ice Cream;Food;Dessert;125;Kwality_Wall_s_Dazzli_Tutti_Frutti_Ice_Cream.png;1
+222;Kwality Wall's Double Chocolate Cornetto Ice Cream Cone;Food;Dessert;40;Kwality_Wall_s_Double_Chocolate_Cornetto_Ice_Cream_Cone.png;1
+223;Kwality Wall's Ice Cream Ice Cream;Food;Dairy;15;Kwality_Wall_s_Ice_Cream_Ice_Cream.png;1
+224;Kwality Wall's Mango Zap;Food;Ice cream;25;Kwality_Wall_s_Mango_Zap.png;1
+225;Kwality Wall's Paddle Pop Cola Blast Ice Bar;Food;Frozen;10;Kwality_Wall_s_Paddle_Pop_Cola_Blast_Ice_Bar.png;1
+226;Kwality Wall's Sandwich Chocolate & Vanilla Ice Cream;Food;Ice cream;30;Kwality_Wall_s_Sandwich_Chocolate_Vanilla_Ice_Cream.png;1
+227;Kwality Wall's Shahi Kulfi;Food;Desserts;20;Kwality_Wall_s_Shahi_Kulfi.png;1
+228;Kwality Wall's Shameless Vanilla Ice Cream;Food;Dairy;99;Kwality_Wall_s_Shameless_Vanilla_Ice_Cream.png;1
+229;Lakme 9 to 5 CC Complexion Care Cream;Personal Care;Cosmetics;99;Lakme_9_to_5_CC_Complexion_Care_Cream.png;1
+230;Lakme Absolute Perfect Radiance Face Cream;Personal Care;Cosmetics;125;Lakme_Absolute_Perfect_Radiance_Face_Cream.png;1
+231;Layer'r Shot Body Perfume;Personal Care;Cosmetics;195;Layer_r_Shot_Body_Perfume.png;1
+232;Lehar Ecervess Soda;Food;Beverages;15;Lehar_Ecervess_Soda.png;1
+233;Lever Ayush Aloe Vera Cooling Face Gel;Personal Care;Skincare;80;Lever_Ayush_Aloe_Vera_Cooling_Face_Gel.png;1
+234;Lever Ayush Aval Millet Pongal Breakfast Mix;Food;Breakfast;15;Lever_Ayush_Aval_Millet_Pongal_Breakfast_Mix.png;1
+235;Lever Ayush Freshness Gel Cardamom Toothpaste;Personal Care;Oral;32;Lever_Ayush_Freshness_Gel_Cardamom_Toothpaste.png;1
+236;Lever Ayush Freshness Gel Toothpaste;Personal Care;Oral;75;Lever_Ayush_Freshness_Gel_Toothpaste.png;1
+237;Lever Ayush Oil Clear Aloe Vera Face Wash;Personal Care;Cosmetics;50;Lever_Ayush_Oil_Clear_Aloe_Vera_Face_Wash.png;1
+238;Lever Ayush Whitening With Rock Salt Toothpaste;Personal Care;Oral care;32;Lever_Ayush_Whitening_With_Rock_Salt_Toothpaste.png;1
+239;Lifebuoy Active Silver Formula Nature Hand Wash;Personal Care;Personal care;69;Lifebuoy_Active_Silver_Formula_Nature_Hand_Wash.png;1
+240;Lion Arabian Dates Buy 1 Get 1 Free;Food;Dried fruit;"187;100";Lion_Arabian_Dates_Buy_1_Get_1_Free.png;1
+241;Lion Dates Syrup;Food;Condiments;"196;107;66";Lion_Dates_Syrup.png;1
+242;Lion Desertking Dates ;Food;Dried fruit;"120;228";Lion_Desertking_Dates_.png;1
+243;Lotte Choco Pie Premium Quality;Food;Snacks;10;Lotte_Choco_Pie_Premium_Quality.png;1
+244;Maaza Refresh Cool Drink;Food;Beverages;10;Maaza_Refresh_Cool_Drink.png;1
+245;Maggi 2 Minute Noodels;Food;Noodles;"12;23";Maggi_2_Minute_Noodels.png;1
+246;Maggi Sweetcorn Noodels;Food;Noodles;25;Maggi_Sweetcorn_Noodels.png;1
+247;Mamy Poko Pants Extra Absorb For New Born Babys;Personal Care;Baby;99;Mamy_Poko_Pants_Extra_Absorb_For_New_Born_Babys.png;1
+248;Mamy Poko Pants Extra Absorb Large Baby's Diaper;Personal Care;Baby;499;Mamy_Poko_Pants_Extra_Absorb_Large_Baby_s_Diaper.png;1
+249;Mamy Poko Pants Extra Absorb Small Baby's Diaper;Personal Care;Baby;195;Mamy_Poko_Pants_Extra_Absorb_Small_Baby_s_Diaper.png;1
+250;Mamy Poko Pants Extra Absorb XXL Baby's Diaper;Personal Care;Baby;"275;499;275";Mamy_Poko_Pants_Extra_Absorb_XXL_Baby_s_Diaper.png;1
+251;Mamy Poko Pants Extra Absorb XXXL Baby's Diaper;Personal Care;Baby;299;Mamy_Poko_Pants_Extra_Absorb_XXXL_Baby_s_Diaper.png;1
+252;Mamy Poko Pants New Born Baby's Diaper;Personal Care;Baby;8;Mamy_Poko_Pants_New_Born_Baby_s_Diaper.png;1
+253;Mamy Poko Pants Size Small Baby's Diaper;Personal Care;Baby Care;9;Mamy_Poko_Pants_Size_Small_Baby_s_Diaper.png;1
+254;Mamy Poko Pants Size XL Baby's Diaper;Personal Care;Baby;16;Mamy_Poko_Pants_Size_XL_Baby_s_Diaper.png;1
+255;Mccain Frenchfries Fried;Food;Frozen;45;Mccain_Frenchfries_Fried_Snacks.png;1
+256;Mccain Mini Samosa And French Fries Fired;Food;Snacks;100;Mccain_Mini_Samosa_And_French_Fries_Fired_Snacks.png;1
+257;Mccain Smiles Fried;Food;Frozen;"45;107";Mccain_Smiles_Fried_Snacks.png;1
+258;Medimix Sandal Handwash;Personal Care;Bath;180;Medimix_Sandal_Handwash.png;1
+259;Milky Mist Cheese Block;Food;Dairy;114;Milky_Mist_Cheese_Block.png;1
+260;Milky Mist Cooking Butter Un Salted;Food;Dairy;"100;240";Milky_Mist_Cooking_Butter_Un_Salted.png;1
+261;Milky Mist Farm Fresh Butter Milk;Food;Dairy;8;Milky_Mist_Farm_Fresh_Butter_Milk.png;1
+262;Milky Mist Fresh Cream Medium;Food;Dairy;60;Milky_Mist_Fresh_Cream_Medium.png;1
+263;Milky Mist Green Apple Lassi;Food;Dairy;20;Milky_Mist_Green_Apple_Lassi.png;1
+264;Milky Mist Gulab Jamun Mix Buy 1 Get 1 Free;Food;Dessert;99;Milky_Mist_Gulab_Jamun_Mix_Buy_1_Get_1_Free.png;1
+265;Minute Maid Apple Cool Drink;Food;Health drink;10;Minute_Maid_Apple_Cool_Drink.png;1
+266;Minute Maid Pulpy Orange Drink;Food;Beverages;35;Minute_Maid_Pulpy_Orange_Drink.png;1
+267;Minute Maid Smoothie Mango + Banana;Food;Beverages;30;Minute_Maid_Smoothie_Mango_Banana.png;1
+268;Mirinda Orange Juice;Food;Beverages;90;Mirinda_Orange_Juice.png;1
+269;Monster Energy Drink;Food;Beverages;95;Monster_Energy_Drink.png;1
+270;MTR Gulab Jamun;Food;Dessert;220;Mtr_Gulab_Jamun.png;1
+271;MTR Rasagolla;Food;Dessert;115;Mtr_Rasagolla.png;1
+272;Naga Bubbly Maida;Food;Flour;58;Naga_Bubbly_Maida.png;1
+273;Nataraj Pen;Stationary;Stationary;5;Nataraj_Pen.png;1
+274;Nataraj Pencil;Personal Care;Stationery;"3;40";Nataraj_Pencil.png;1
+275;Neem Active Toothpaste;Personal Care;Oral;10;Neem_Active_Toothpast.png;1
+276;Nestle Cerelac Wheat Apple Carrot Cerelac;Food;Baby food;195;Nestle_Cerelac_Wheat_Apple_Carrot_Cerelac.png;1
+277;Nestle Cerelac Wheat Apple Cerelac;Food;Baby food;179;Nestle_Cerelac_Wheat_Apple_Cerelac.png;1
+278;Nestle Cerelac Wheat Nestle Cerelac;Food;Baby food;169;Nestle_Cerelac_Wheat_Nestle_Cerelac.png;1
+279;Nestle Cerelac Wheat Rice Mixed Fruit;Food;Baby food;229;Nestle_Cerelac_Wheat_Rice_Mixed_Fruit_Cerelac.png;1
+280;Nestle Nan Pro 1;Food;Baby food;560;Nestle_Nan_Pro_1_Nestle.png;1
+281;Nippon Aa Hi Top Heavy Duty Battery;Household;Batteries;15;Nippon_Aa_Hi_Top_Heavy_Duty_Battery.png;1
+282;Nippon Gold Aaa Extra Heavy Duty Battery;Household;Batteries;12.5;Nippon_Gold_Aaa_Extra_Heavy_Duty_Battery.png;1
+283;Nivea Fruit Lip Balm;Personal Care;Beauty;45;Nivea_Fruit_Lip_Balm.png;1
+284;Nivea Soft Vitamin E Light Moisturiser;Personal Care;Beauty;36;Nivea_Soft_Vitamin_E_Light_Moisturiser.png;1
+285;Nut Khhut Black Raisins Seedless;Food;Dried fruit;130;Nut_Khhut_Black_Raisins_Seedless.png;1
+286;Olay Anti Ageing Cream Age Protect Cream;Personal Care;Skincare;"189;329";Olay_Anti_Ageing_Cream_Age_Protect_Cream.png;1
+287;Olay Lightweight Day Spf 15 Anti Ageing Cream;Personal Care;Beauty;399;Olay_Lightweight_Day_Spf_15_Anti_Ageing_Cream.png;1
+288;Olay Natural White Day Spf 24 Fairness Cream;Personal Care;Skincare;365;Olay_Natural_White_Day_Spf_24_Fairness_Cream.png;1
+289;Olay Natural White Instant With UV Protect Fairness Cream;Personal Care;Skincare;169;Olay_Natural_White_Instant_With_UV_Protect_Fairness_Cream.png;1
+290;Olay Night Nourishing Repair Cream;Personal Care;Beauty;365;Olay_Night_Nourishing_Repair_Cream.png;1
+291;Old Spice After Shave Loation Orginal;Food;Toiletries;215;Old_Spice_After_Shave_Loation_Orginal.png;1
+292;Old Spice Orginal Deodorant Spray;Personal Care;Personal care;199;Old_Spice_Orginal_Deodorant_Spray.png;1
+293;Pampers 5 Star Skin Comfort For For Bew Babys Upto 5kg Baby's Diaper;Personal Care;Baby;399;Pampers_5_Star_Skin_Comfort_For_For_Bew_Babys_Upto_5kg_Baby_s_Diaper.png;1
+294;Pampers Fresh Clean Baby Wipes;Personal Care;Baby;185;Pampers_Fresh_Clean_Baby_Wipes.png;1
+295;Park Avenue Lemon Storm Shaving Cream;Food;Toiletries;35;Park_Avenue_Lemon_Storm_Shaving_Cream.png;1
+296;Parle Hide & Seek Chocolate Chips;Food;Snacks;"30;10";Parle_Hide_Seek_Chocolate_Chips.png;1
+297;Parle Hide & Seek Choco Chips Strawberry Creme Sandwiches;Food;Biscuits;25;Parle_Hide_Seek_Choco_Chips_Strawberry_Creme_Sandwiches.png;1
+298;Parle Hide & Seek Choco Rolls;Food;Snacks;25;Parle_Hide_Seek_Choco_Rolls.png;1
+299;Parle Krackjack Butter Masala Biscuits;Food;Biscuits;10;Parle_Krackjack_Butter_Masala_Biscuits.png;1
+300;Parle Milano Choco Delight Biscuits;Food;Cookies;35;Parle_Milano_Choco_Delight_Biscuits.png;1
+301;Parle Milano Mixed Berries Biscuits;Food;Cookies;35;Parle_Milano_Mixed_Berries_Biscuits.png;1
+302;Parle Milk Shakthi Biscuits;Food;Biscuits;10;Parle_Milk_Shakthi_Biscuits.png;1
+303;Parle Nutricrunch Digestive Biscuits;Food;Cookies;20;Parle_Nutricrunch_Digestive_Biscuits.png;1
+304;Parry's Amrit Natural Brown Sugar;Food;Condiments;40;Parry_s_Amrit_Natural_Brown_Sugar.png;1
+305;Pattu Mami's Appalam;Food;Snacks;80;Pattu_Mami_s_Appalam.png;1
+306;Pepsi Energy Drink;Food;Beverages;35;Pepsi_Energy_Drink.png;1
+307;Pepsi Soft Drink Pet;Food;Beverages;65;Pepsi_Soft_Drink_Pet.png;1
+308;Pepsodent Cavity Protection 2 In 1 Fight Grems & Freshens Breath Toothpaste;Personal Care;Oral care;49;Pepsodent_Cavity_Protection_2_In_1_Fight_Grems_Freshens_Breath_Toothpaste.png;1
+309;Pepsodent Gumcare+ Toothpaste;Personal Care;Oral care;50;Pepsodent_Gumcare_Toothpaste.png;1
+310;Pepsodent Lavang & Salt Toothpaste;Personal Care;Oral care;92;Pepsodent_Lavang_Salt_Toothpaste.png;1
+311;Perk Double;Food;Candy;10;Perk_Double_Perk.png;1
+312;Pond's Dreamflower Face Powder;Personal Care;Bath and Beauty;"225;78";Pond_s_Dreamflower_Face_Powder.png;1
+313;Pond's Sandal Talcum Powder;Personal Care;Bath and Beauty;"235;52";Pond_s_Sandal_Talcum_Powder.png;1
+314;Pond's Starlight Face Powder;Personal Care;Bath and beauty;225;Pond_s_Starlight_Face_Powder.png;1
+315;Pond's White Beauty BB+ Fairness Cream;Personal Care;Cosmetics;78;Pond_s_White_Beauty_BB_Fairness_Cream.png;1
+316;Pond's White Beauty Anti Spot Fairness Cream;Personal Care;Skincare;145;Pond_s_White_Beauty_Anti_Spot_Fairness_Cream.png;1
+317;Pond's White Beauty Spot Less Fairness Cream;Personal Care;Skincare;67;Pond_s_White_Beauty_Spot_Less_Fairness_Cream.png;1
+318;Pond's White Beauty Spot Less Softness Cream;Personal Care;Skincare;78;Pond_s_White_Beauty_Spot_Less_Softness_Cream.png;1
+319;Popi Corn Creamy Cheese Popcorn;Food;Snacks;5;Popi_Corn_Creamy_Cheese_Popcorn.png;1
+320;Popi Corn Popcorn;Food;Snacks;5;Popi_Corn_Popcorn.png;1
+321;Popi Corn Tomato Chilli Popcorn;Food;Snacks;5;Popi_Corn_Tomato_Chilli_Popcorn.png;1
+322;Relish Potato Finger Mint;Food;Snacks;33;Relish_Potato_Finger_Mint.png;1
+323;Premier Paper Handkerchief;Stationary;Paper;10;Premier_Paper_Handkerchief.png;1
+324;Premium Mangalmay Home Fragrances Samriddhi Jasmine & Ratrsni;Household;Air freshener;150;Premium_Mangalmay_Home_Fragrances_Samriddhi_Jasmine_Ratrsni.png;1
+325;Real Fruit Power Litch Fruit Juice;Food;Beverages;20;Real_Fruit_Power_Litch_Fruit_Juice.png;1
+326;Real Fruit Power Mango Fruit Juice;Food;Beverages;20;Real_Fruit_Power_Mango_Fruit_Juice.png;1
+327;Relish Cheese Ball;Food;Snacks;28;Relish_Cheese_Ball_Snacks.png;1
+328;Relish Chekkodi;Food;Snacks;40;Relish_Chekkodi.png;1
+329;Relish Gold Finger Chips;Food;Snacks;20;Relish_Gold_Finger_Chips.png;1
+330;Relish Masala Ring;Food;Snacks;27;Relish_Masala_Ring_nacks.png;1
+331;Relish Noodel Ring;Food;Snacks;27;Relish_Noodel_Ring_Snacks.png;1
+332;Relish Noodle Rings;Food;Snacks;27;Relish_Noodle_Rings_Snacks.png;1
+333;Relish Ola Pakoda;Food;Snacks;40;Relish_Ola_Pakoda.png;1
+334;Relish Paneer Drink;Food;Beverages;15;Relish_Paneer_Drink.png;1
+335;Relish Potato Chips Salted Snacks;Food;Snacks;33;Relish_Potato_Chips_Salted_Snacks.png;1
+336;Relish Potato Finger Chilli;Food;Snacks;33;Relish_Potato_Finger_Chilli.png;1
+337;Relish Tomato Balls;Food;Snacks;27;Relish_Tomato_Balls_Snacks.png;1
+338;Rin Liquid;Household;Detergent;"65;105";Rin_Liquid.png;1
+339;Rin Smart Foam Detergent Powder;Household;Laundry;"82;42";Rin_Smart_Foam_Detergent_Powder.png;1
+340;Ruchi Gold Refined Palmoleon Oil;Food;Oil;91;Ruchi_Gold_Refined_Palmoleon_Oil.png;1
+341;Sensodyne Daily Protection Toothpaste;Personal Care;Oral;25;Sensodyne_Daily_Protection_Toothpaste.png;1
+342;Sensodyne Deep Clean Toothpaste;Personal Care;Oral care;60;Sensodyne_Deep_Clean_Toothpaste.png;1
+343;Sprite Cool Drink Pet;Food;Beverages;"40;90";Sprite_Cool_Drink_Pet.png;1
+344;Sprite Cool Drink Tin;Food;Beverages;35;Sprite_Cool_Drink_Tin.png;1
+345;Star Ravai;Food;Grains;28;Star_Ravai.png;1
+346;Star Rice Flour;Food;Rice;28;Star_Rice_Flour.png;1
+347;Star Samba Broken Wheat;Food;Grains;50;Star_Samba_Broken_Wheat.png;1
+348;Bhagyalakshmi Kashmir Chilli;Food;Spices;"180;90;45";Bhagyalakshmi_Kashmir_Chilli.png;1
+349;Bhagyalakshmi Long Chilli;Food;Spices;"108;54;27";Bhagyalakshmi_Long_Chilli.png;1
+350;Bhagyalakshmi Long Turmeric;Food;Spices;"140;70;35";Bhagyalakshmi_Long_Turmeric.png;1
+351;Bhagyalakshmi Ragi Semiya;Food;Condiments;"63;31.5;16";Bhagyalakshmi_Ragisemiya.png;1
+352;Sree Singarapu Store White Channa;Food;Pulses;50;Sree_Singarapu_Store_White_Channa.png;1
+353;Sree Singarapu Store Alpakoda;Food;Condiments;35;Sree_Singarapu_Store_Alpakoda.png;1
+354;Sree Singarapu Store Barley;Food;Grains;"14;7";Sree_Singarapu_Store_Barlae.png;1
+355;Sree Singarapu Store Big Javvarisi;Food;Savouries;7;Sree_Singarapu_Store_Big_Javvarisi.png;1
+356;Sree Singarapu Store Black Cumins;Food;Spices;20;Sree_Singarapu_Store_Black_Cumins.png;1
+357;Sree Singarapu Store Black Orid Dhall;Food;Pulses;80;Sree_Singarapu_Store_Black_Orid_Dhall.png;1
+358;Sree Singarapu Store Black Rajma;Food;Legume;11;Sree_Singarapu_Store_Black_Rajma.png;1
+359;Sree Singarapu Store Black Till;Food;Condiments;"18;9";Sree_Singarapu_Store_Black_Till.png;1
+360;Sree Singarapu Store Blk Patha Oriddhall;Food;Lentils;9;Sree_Singarapu_Store_Blk_Patha_Oriddhall.png;1
+361;Sree Singarapu Store Bori;Food;Snacks;40;Sree_Singarapu_Store_Bori.png;1
+362;Sree Singarapu Store Cardamom;Food;Spices;50;Sree_Singarapu_Store_Cardamom.png;1
+363;Sree Singarapu Store Cashew;Food;Nuts;80;Sree_Singarapu_Store_Cashew.png;1
+364;Sree Singarapu Store CassaiPattai CassaiPattai;Food;Spices;"30;15";Sree_Singarapu_Store_Cassai_Pattai_Cassai_Pattai.png;1
+365;Sree Singarapu Store Cloves;Food;Spices;76;Sree_Singarapu_Store_Cloves.png;1
+366;Sree Singarapu Store Dhaniya;Food;Spices;60;Sree_Singarapu_Store_Dhaniya.png;1
+367;Sree Singarapu Store Diamond Kalkandu;Food;Condiments;15;Sree_Singarapu_Store_Diamond_Kalkandu.png;1
+368;Sree Singarapu Store Dosa Puli;Food;Condiments;"28;55;110";Sree_Singarapu_Store_Dosa_Puli.png;1
+369;Sree Singarapu Store Dry Grapes;Food;Dried fruit;40;Sree_Singarapu_Store_Dry_Grapes.png;1
+370;Sree Singarapu Store Fried Gram;Food;lentils;50;Sree_Singarapu_Store_Fried_Gram.png;1
+371;Sree Singarapu Store Gram Flour;Food;Dairy;40;Sree_Singarapu_Store_Gram_Flour.png;1
+372;Sree Singarapu Store Groundnut Dry;Food;Nuts;110;Sree_Singarapu_Store_Groundnut_Dry.png;1
+373;Sree Singarapu Store Idly Rice Orange;Food;Rice;36;Sree_Singarapu_Store_Idly_Rice_Orange.png;1
+374;Sree Singarapu Store Kasa Kasa;Food;Spices;17;Sree_Singarapu_Store_Kasa_Kasa.png;1
+375;Sree Singarapu Store Kollu;Food;pulses;8;Sree_Singarapu_Store_Kollu.png;1
+376;Sree Singarapu Store Long Chillies;Food;Spices;128;Sree_Singarapu_Store_Long_Chillies.png;1
+377;Sree Singarapu Store Makka Cholam;Food;Grains;10;Sree_Singarapu_Store_Makka_Cholam.png;1
+378;Sree Singarapu Store Manathakali;Food;Spices;24;Sree_Singarapu_Store_Manathakali.png;1
+379;Sree Singarapu Store Mini Javvarisi;Food;Savory;"8;16";Sree_Singarapu_Store_Mini_Javvarisi.png;1
+380;Sree Singarapu Store Mocha;Food;Legume;"16;8";Sree_Singarapu_Store_Mocha.png;1
+381;Sree Singarapu Store Moong Dhall;Food;Lentils;"85;43";Sree_Singarapu_Store_Moong_Dhall.png;1
+382;Sree Singarapu Store More Vathal;Food;Condiments;4.5;Sree_Singarapu_Store_More_Vathal.png;1
+383;Sree Singarapu Store Mysore Dhall;Food;Lentils;7;Sree_Singarapu_Store_Mysore_Dhall.png;1
+384;Sree Singarapu Store Nattu Sugar;Food;Condiments;53;Sree_Singarapu_Store_Nattu_Sugar.png;1
+385;Sree Singarapu Store Net Mace;Food;Spices;240;Sree_Singarapu_Store_Net_Mace.png;1
+386;Sree Singarapu Store Net Meg;Food;Spices;23;Sree_Singarapu_Store_Net_Meg.png;1
+387;Sree Singarapu Store Orid Dhall;Food;Lentils;43;Sree_Singarapu_Store_Orid_Dhall.png;1
+388;Sree Singarapu Store Orysa Sativa;Food;Rice.;60;Sree_Singarapu_Store_Orysa_Sativa.png;1
+389;Sree Singarapu Store Pacha Payaru;Food;Pulses;45;Sree_Singarapu_Store_Pacha_Payaru.png;1
+390;Sree Singarapu Store Pana Karkandu;Food;Condiments;28;Sree_Singarapu_Store_Pana_Karkandu.png;1
+391;Sree Singarapu Store Pongal Rice;Food;Rice.;44;Sree_Singarapu_Store_Pongal_Rice.png;1
+392;Sree Singarapu Store Ragi SSS;Food;Grains;23;Sree_Singarapu_Store_Ragi_SSS.png;1
+393;Sree Singarapu Store Round Chilles;Food;Spices;"96;47";Sree_Singarapu_Store_Round_Chilles.png;1
+394;Sree Singarapu Store Sabja Seed;Food;Condiments;56;Sree_Singarapu_Store_Sabjaseed.png;1
+395;Sree Singarapu Store Samba Wheat;Food;Grains;28;Sree_Singarapu_Store_Samba_Wheat.png;1
+396;Sree Singarapu Store Silver Puli;Food;Condiments;83;Sree_Singarapu_Store_Silver_Puli.png;1
+397;Sree Singarapu Store Sivaji Rice;Food;Rice.;60;Sree_Singarapu_Store_Sivaji_Rice.png;1
+398;Sree Singarapu Store Star Ani Seeds;Food;Spices;"102;51";Sree_Singarapu_Store_Star_Aniseeds.png;1
+399;Sree Singarapu Store Stone Flower;Food;Spices;25;Sree_Singarapu_Store_Stone_Flower.png;1
+400;Sree Singarapu Store Students School Box;Stationary;School supplies;80;Sree_Singarapu_Store_Students_School_Box.png;1
+401;Sree Singarapu Store Sugar;Food;Staples;39;Sree_Singarapu_Store_Sugar.png;1
+402;Sree Singarapu Store Sukku;Food;Spices;30;Sree_Singarapu_Store_Sukku.png;1
+403;Sree Singarapu Store Sundakai;Food;Condiments;12;Sree_Singarapu_Store_Sundakai.png;1
+404;Sree Singarapu Store White Chollam;Food;Grains;7;Sree_Singarapu_Store_White_Chollam.png;1
+405;Sree Singarapu Store White Patani;Food;pulses;18;Sree_Singarapu_Store_White_Patani.png;1
+406;Sree Singarapu Store White Rajama;Food;Pulses;26;Sree_Singarapu_Store_White_Rajama.png;1
+407;Sree Singarapu Store White Till;Food;Condiments;22;Sree_Singarapu_Store_White_Till.png;1
+408;Sree Singarapu Stores Gram Dhal;Food;Lentils;90;Sree_Singarapu_Stores_Gram_Dhaal.png;1
+409;Sri Bhagayalakshmi Vendayam;Food;Condiments;"5;8;14;32";Sri_Bhagayalakshmi_Vendayam.png;1
+410;Sri Bhagyalakshmi Aval;Food;Snacks.;58;Sri_Bhagyalakshmi_Aval.png;1
+411;Sri Bhagyalakshmi Balaji 400 Semiya;Food;Noodles;50;Sri_Bhagyalakshmi_Balaji_400_Semiya.png;1
+412;Sri Bhagyalakshmi Balaji 900 Semiya;Food;Pasta;70;Sri_Bhagyalakshmi_Balaji_900_Semiya.png;1
+413;Sri Bhagyalakshmi Barley;Food;Grains;49;Sri_Bhagyalakshmi_Barley.png;1
+414;Sri Bhagyalakshmi Basmati Commander Platinum Rice;Food;Rice.;68;Sri_Bhagyalakshmi_Basmati_Commander_Platinum.png;1
+415;Sri Bhagyalakshmi Basmati Rice;Food;Grains;108;Sri_Bhagyalakshmi_Basmati_Rice.png;1
+416;Sri Bhagyalakshmi Bayleaf;Food;Spices;10;Sri_Bhagyalakshmi_Bayleaf.png;1
+417;Sri Bhagyalakshmi Bengal Gram Dhall;Food;Lentils;34;Sri_Bhagyalakshmi_Bengal_Gram_Dhall.png;1
+418;Sri Bhagyalakshmi Black Channa;Food;Pulses;17;Sri_Bhagyalakshmi_Black_Chenna.png;1
+419;Sri Bhagyalakshmi Cardamom;Food;Spices;190;Sri_Bhagyalakshmi_Cardamom.png;1
+420;Sri Bhagyalakshmi Cashew Half;Food;Nuts;"810;202;405";Sri_Bhagyalakshmi_Cashew_Half.png;1
+421;Sri Bhagyalakshmi Cloves;Food;Spices;750;Sri_Bhagyalakshmi_Cloves.png;1
+422;Sri Bhagyalakshmi Corn Flour;Food;Condiments;24;Sri_Bhagyalakshmi_Corn_Flour.png;1
+423;Sri Bhagyalakshmi Dhaniya;Food;Spices;98;Sri_Bhagyalakshmi_Dhaniya.png;1
+424;Sri Bhagyalakshmi Fried Bengal Gram;Food;pulses;84;Sri_Bhagyalakshmi_Fried_Bengal_Gram.png;1
+425;Sri Bhagyalakshmi Garlic Bold;Food;Spices;110;Sri_Bhagyalakshmi_Garlic_Bold.png;1
+426;Sri Bhagyalakshmi Green Gram;Food;Pulses;85;Sri_Bhagyalakshmi_Green_Gram.png;1
+427;Sri Bhagyalakshmi Green Peace;Food;Pulses;85;Sri_Bhagyalakshmi_Green_Peace.png;1
+428;Sri Bhagyalakshmi Groundnut;Food;Nuts;"110;34;66";Sri_Bhagyalakshmi_Groundnut.png;1
+429;Sri Bhagyalakshmi Health Mix;Food;Spices;167;Sri_Bhagyalakshmi_Health_Mix.png;1
+430;Sri Bhagyalakshmi Hindu Salt;Food;Condiments;50;Sri_Bhagyalakshmi_Hindu_Salt.png;1
+431;Sri Bhagyalakshmi Jadikkai;Food;Spices;75;Sri_Bhagyalakshmi_Jadikkai.png;1
+432;Sri Bhagyalakshmi Jeeragam;Food;Spice;"13;25;58";Sri_Bhagyalakshmi_Jeeragam.png;1
+433;Sri Bhagyalakshmi Kalpasi;Food;Condiments;15;Sri_Bhagyalakshmi_Kalpasi.png;1
+434;Sri Bhagyalakshmi Karamani;Food;Pulses;90;Sri_Bhagyalakshmi_Karamani.png;1
+435;Sri Bhagyalakshmi Kolambu Chilly Powder;Food;Spices;160;Sri_Bhagyalakshmi_Kolambu_Chilly_Powder.png;1
+436;Sri Bhagyalakshmi Manathakkali Vathal;Food;Spices;280;Sri_Bhagyalakshmi_Manathakkali_Vathal.png;1
+437;Sri Bhagyalakshmi Masala 65;Food;Condiments;31;Sri_Bhagyalakshmi_Masala_65.png;1
+438;Sri Bhagyalakshmi Mochal;Food;Pulses;95;Sri_Bhagyalakshmi_Mochal.png;1
+439;Sri Bhagyalakshmi Moong Dhall;Food;Lentils;"21;42;85";Sri_Bhagyalakshmi_Moong_Dhall.png;1
+440;Sri Bhagyalakshmi Muckrooni;Food;Pasta;"50;25";Sri_Bhagyalakshmi_Muckrooni.png;1
+441;Sri Bhagyalakshmi Mustard;Food;Condiments;"29;8";Sri_Bhagyalakshmi_Mustard.png;1
+442;Sri Bhagyalakshmi Mysore Dhall;Food;Lentils;66;Sri_Bhagyalakshmi_Mysore_Dhall.png;1
+443;Sri Bhagyalakshmi Pepper;Food;Spices;"108;22";Sri_Bhagyalakshmi_Pepper.png;1
+444;Sri Bhagyalakshmi Premiun Chilly Powder;Food;Spices;80;Sri_Bhagyalakshmi_Premiun_Chilly_Powder.png;1
+445;Sri Bhagyalakshmi Raw Rice;Food;Rice;55;Sri_Bhagyalakshmi_Raw_Rice.png;1
+446;Sri Bhagyalakshmi Red Aval;Food;Grains;60;Sri_Bhagyalakshmi_Red_Aval.png;1
+447;Sri Bhagyalakshmi Red Rajma;Food;Pulses;110;Sri_Bhagyalakshmi_Red_Rajma.png;1
+448;Sri Bhagyalakshmi Rice Flour;Food;Staples;34;Sri_Bhagyalakshmi_Rice_Flour.png;1
+449;Sri Bhagyalakshmi Roasted Semiya;Food;Noodles;45;Sri_Bhagyalakshmi_Roasted_Semiya.png;1
+450;Sri Bhagyalakshmi Round Chilly;Food;Spices;130;Sri_Bhagyalakshmi_Round_Chilly.png;1
+451;Sri Bhagyalakshmi Sago Rice;Food;Grains;70;Sri_Bhagyalakshmi_Sago_Rice.png;1
+452;Sri Bhagyalakshmi Sambarava;Food;Grains;50;Sri_Bhagyalakshmi_Sambarava.png;1
+453;Sri Bhagyalakshmi Seedless Tamarind;Food;Condiments;120;Sri_Bhagyalakshmi_Seedless_Tamarind.png;1
+454;Sri Bhagyalakshmi Soapnuts;Food;Spices;190;Sri_Bhagyalakshmi_Soapnuts.png;1
+455;Sri Bhagyalakshmi Sombu;Food;Spices;"18;10;42;80";Sri_Bhagyalakshmi_Sombu.png;1
+456;Sri Bhagyalakshmi Sugar;Food;Condiments;42;Sri_Bhagyalakshmi_Sugar.png;1
+457;Sri Bhagyalakshmi Sukku;Food;Spices;75;Sri_Bhagyalakshmi_Sukku.png;1
+458;Sri Bhagyalakshmi Tamarind;Food;Condiments;150;Sri_Bhagyalakshmi_Tamarind.png;1
+459;Sri Bhagyalakshmi Tamarind Dosai;Food;Condiments;140;Sri_Bhagyalakshmi_Tamarind_Dosai.png;1
+460;Sri Bhagyalakshmi Toor Dhall 1;Food;Lentils;"40;23";Sri_Bhagyalakshmi_Toor_Dhall_1.png;1
+461;Sri Bhagyalakshmi Toor Dhall 2;Food;Lentils;"22;42";Sri_Bhagyalakshmi_Toor_Dhall_2.png;1
+462;Sri Bhagyalakshmi Toor Dhall 3;Food;Lentils;"21;91;41";Sri_Bhagyalakshmi_Toor_Dhall_3.png;1
+463;Sri Bhagyalakshmi Toor Dhall Charlie;Food;toor dal;91;Sri_Bhagyalakshmi_Toor_Dhall_Charlie.png;1
+464;Sri Bhagyalakshmi Urid Dhall 1;Food;Pulses;86;Sri_Bhagyalakshmi_Urid_Dhall_1.png;1
+465;Sri Bhagyalakshmi Urid Dhall 2;Food;Pulses;21;Sri_Bhagyalakshmi_Urid_Dhall_2.png;1
+466;Sri Bhagyalakshmi Urid Dhall 3;Food;Pulses;35;Sri_Bhagyalakshmi_Urid_Dhall_3.png;1
+467;Sri Bhagyalakshmi Urid Dhall Chain;Food;Pulses;86;Sri_Bhagyalakshmi_Urid_Dhall_Chain.png;1
+468;Sri Bhagyalakshmi Wheat;Food;Grains;40;Sri_Bhagyalakshmi_Wheat.png;1
+469;Sri Bhagyalakshmi White Channa;Food;Pulses;65;Sri_Bhagyalakshmi_White_Channa.png;1
+470;Sri Bhagyalakshmi White Channa Bold;Food;Pulses;82;Sri_Bhagyalakshmi_White_Channa_Bold.png;1
+471;Sri Bhagyalakshmi White Till;Food;Condiments;23;Sri_Bhagyalakshmi_White_Till.png;1
+472;Sunfeast Bounce Elaichi Delight Biscuits;Food;Biscuits;10;Sunfeast_Bounce_Elaichi_Delight_Biscuits.png;1
+473;Sunfeast Marie Light Rich Tast Biscuits;Food;Biscuits;10;Sunfeast_Marie_Light_Rich_Tast_Biscuits.png;1
+474;Sunfeast Milk Biscuits;Food;Biscuits;10;Sunfeast_Milk_Biscuits.png;1
+475;Sunfeast Mom's Magic Rich Butter Cookies;Food;Biscuits;"5;10";Sunfeast_Mom_s_Magic_Rich_Butter_Cookies.png;1
+476;Sunfeast Snacky Simply Salted Biscuits;Food;Snacks;10;Sunfeast_Snacky_Simply_Salted_Biscuits.png;1
+477;Sunfeast Snacky Sweet & Salt Biscuits;Food;Snacks;10;Sunfeast_Snacky_Sweet_Salt_Biscuits.png;1
+478;Sunland Refined Sunflower Oil;Food;Oil;525;Sunland_Refined_Sunflower_Oil.png;1
+479;SVS Oil Refined Groundnut Oil;Food;Oil;140;SVS_Oil_Refined_Groundnut_Oil.png;1
+480;SVS Refined Groundnut Oil;Food;Oil;725;SVS_Refined_Groundnut_Oil.png;1
+481;Thums Up Cool Drink;Food;Beverages;35;Thums_Up_Cool_Drink.png;1
+482;Thumsup Party Pack Drink;Food;Beverages;90;Thumsup_Party_Pack_Drink.png;1
+483;Tide Detergent Soap Detergent Soap;Household;Laundry;10;Tide_Detergent_Soap_Detergent_Soap.png;1
+484;Tide Natural of Lemon & Chandan Detergent Powder;Household;Detergent;"56;36;10";Tide_Natural_of_Lemon_Chandan_Detergent_Powder.png;1
+485;Tide Value Pack Detergent Bar;Household;Laundry;75;Tide_Value_Pack_Detergent_Bar.png;1
+486;Tide+ With Extra Power Lemon & Mint Detergent Powder;Household;Detergent;"515;204";Tide_With_Extra_Power_Lemon_Mint_Detergent_Powder.png;1
+487;Tide+With Extra Power+ Jasmin & Rose Detergent Powder;Household;Laundry;439;Tide_With_Extra_Power_Jasmin_Rose_Detergent_Powder.png;1
+488;Trophy Royale Basmati Rice Extra Long;Food;Rice.;169;Trophy_Royale_Basmati_Rice_Extra_Long.png;1
+489;Tropicana Slice Manjo Juice;Food;Beverages;35;Tropicana_Slice_Manjo_Juse_Mango_Juse.png;1
+490;Udhaiyam Pure Iodised Salt Crystal;Food;Condiments;16;Udhaiyam_Pure_Iodised_Salt_Crystal.png;1
+491;Ujala Supreme Clothes Wash Liquid;Household;Detergent;"8;22;65";Ujala_Supreme_Clothes_Wash_Liquid.png;1
+492;Varalakshmi Muthyam Super Premium Rice;Food;Food;975;Varalakshmi_Muthyam_Super_Premium_Rice.png;1
+493;Vaseline Healthy White Sunscreen Lotion;Personal Care;Bath;99;Vaseline_Healthy_White_Sunscreen_Lotion.png;1
+494;Vaseline Intensive Care Advance Repair Non Greasy Lotion;Personal Care;Beauty;140;Vaseline_Intensive_Care_Advance_Repair_Non_Greasy_Lotion.png;1
+495;Vim Bar Dishwash;Household;Detergent;"5;20";Vim_Bar_Dish_Wash.png;1
+496;Vim Power of 100 Lemons Dishwash Gel - Refil;Household;Dishwashing;"20;40";Vim_Power_of_100_Lemons_Dishwash_Gel_Refil.png;1
+497;Werite Big Bond Water Colour Pen;Stationary;Stationary;30;Werite_Big_Bond_Water_Colour_Pen.png;1
+498;Yippee Noodles Mood Masala;Food;Noodles;15;Yippee_Noodles_Mood_Masala.png;1
+499;Om Muruga Organic Milagu;Food;Spices;"34;65";Om_Muruga_Organic_Milagu.png;1
+500;Om Muruga Organic Neem Oil;Food;Oils;"25;45;65";Om_Muruga_Organic_Mneem_Oil.png;1
+501;Om Muruga Organic Mudakkathan;Food;Spices;20;Om_Muruga_Organic_Mudakkathan.png;1
+502;Om Muruga Organic Murnga Veedhai;Food;Condiments;50;Om_Muruga_Organic_Murnga_Veedhai.png;1
+503;Om Muruga Organic Naatu Sugar;Food;Spices;50;Om_Muruga_Organic_Naatu_Sugar.png;1
+504;Om Muruga Organic Nattu Sukku;Food;Spices;240;Om_Muruga_Organic_Nattu_Sukku.png;1
+505;Om Muruga Organic Natural Soap;Personal Care;Soaps;80;Om_Muruga_Organic_Natural_Soap.png;1
+506;Om Muruga Organic Nerunji Mull;Food;Spices;40;Om_Muruga_Organic_Nerunji_Mull.png;1
+507;Om Muruga Organic Nilavembu Kudineer;Personal Care;Medicine;70;Om_Muruga_Organic_Nilavembu_Kudineer.png;1
+508;Om Muruga Organic Onion Papad;Food;Snacks.;30;Om_Muruga_Organic_Onion_Paped.png;1
+509;Om Muruga Organic Palm;Food;Spices;45;Om_Muruga_Organic_Palm.png;1
+510;Om Muruga Organic Pattani;Food;Pulses;15;Om_Muruga_Organic_Pattani.png;1
+511;Om Muruga Organic Pumkin;Food;Nuts;40;Om_Muruga_Organic_Pumkin.png;1
+512;Om Muruga Organic Ragi;Food;Condiments;25;Om_Muruga_Organic_Ragi.png;1
+513;Om Muruga Organic Round Chilli;Food;Spice;25;Om_Muruga_Organic_Round_Chilli.png;1
+514;Om Muruga Organic Saami;Food;Grains;30;Om_Muruga_Organic_Saami.png;1
+515;Om Muruga Organic Sabja Seeds;Food;Spices;15;Om_Muruga_Organic_Sabja_Seeds.png;1
+516;Om Muruga Organic Samai Pongal Mix;Food;Food;65;Om_Muruga_Organic_Samai_Pongal_Mix.png;1
+517;Om Muruga Organic Samba;Food;Grains;35;Om_Muruga_Organic_Samba.png;1
+518;Om Muruga Organic Samba Wheat;Food;Grains.;50;Om_Muruga_Organic_Samba_Wheat.png;1
+519;Om Muruga Organic Shop Coconut Soap;Personal Care;Bath;70;Om_Muruga_Organic_Shop_Coconut_Soap.png;1
+520;Om Muruga Organic Shop Javvarisi;Food;Grains;33;Om_Muruga_Organic_Shop_Javvarisi.png;1
+521;Om Muruga Organic Shop Kadalai Paruppu;Food;Legume;40;Om_Muruga_Organic_Shop_Kadalai_Paruppu.png;1
+522;Om Muruga Organic Shop Kadalaimavu;Food;Spice;60;Om_Muruga_Organic_Shop_Kadalaimavu.png;1
+523;Om Muruga Organic Shop Karuppu Ellu;Food;Condiments;22;Om_Muruga_Organic_Shop_Karuppu_Ellu.png;1
+524;Om Muruga Organic Shop Karuppu Kollu;Food;Lentils;15;Om_Muruga_Organic_Shop_Karuppu_Kollu.png;1
+525;Om Muruga Organic Shop Karuppu Ulundhu;Food;Pulses;40;Om_Muruga_Organic_Shop_Karuppu_Ulundhu.png;1
+526;Om Muruga Organic Shop Kasa Kasa;Food;Condiments;85;Om_Muruga_Organic_Shop_Kasa_Kasa.png;1
+527;Om Muruga Organic Shop Milagu Thal;Food;Spices;30;Om_Muruga_Organic_Shop_Milagu_Thal.png;1
+528;Om Muruga Organic Shop Pistha;Food;Nuts;230;Om_Muruga_Organic_Shop_Pistha.png;1
+529;Om Muruga Organic Shop Sun Flower Seeds;Food;Condiments;30;Om_Muruga_Organic_Shop_Sun_Flower_Seeds.png;1
+530;Om Muruga Organic Shop Thirachai;Food;Dried fruit;40;Om_Muruga_Organic_Shop_Thirachai.png;1
+531;Om Muruga Organic Spade Flower Idly Rice Podi;Food;Spices;75;Om_Muruga_Organic_Spade_Flower_Idly_Rice_Podi.png;1
+532;Om Muruga Organic Thatai Parupu;Food;Pulses;34;Om_Muruga_Organic_Thatai_Parupu.png;1
+533;Om Muruga Organic Thinai Pongal Mix;Food;Grains;69;Om_Muruga_Organic_Thinai_Pongal_Mix.png;1
+534;Om Muruga Organic Thinai Rava Upma Mix;Food;Food;65;Om_Muruga_Organic_Thinai_Rava_Upma_Mix.png;1
+535;Om Muruga Organic Thirachai;Food;Dried fruit;40;Om_Muruga_Organic_Thirachai.png;1
+536;Om Muruga Organic Varagu Pongal Mix;Food;Grains;69;Om_Muruga_Organic_Varagu_Pongal_Mix.png;1
+537;Oreo Chocolatey Sandwich Biscuits;Food;Snacks;10;Oreo_Biscuits_Chocolatey_Sandwich_Biscuits.png;1
+538;Oreo Golden Cadbury Oreo Biscuits;Food;Cookies;10;Oreo_Golden_Cadbury_Oreo_Biscuits.png;1
+539;Oreo Choco Cream Biscuits;Food;Snacks;"10;30";Oreo_Oreo_Choco_Cream_Biscuits.png;1
+540;Oreo Strawberry Cream Biscuits;Food;Cookies;"10;30";Oreo_Oreo_Strawberry_Cream_Biscuits.png;1
+541;Organic World Anti Luce & Dandruff Oil;Personal Care;Beauty;150;Organic_World_Anti_Luce_Dandruff_Oil.png;1
+542;Organic World Black Kavuni Rice;Food;Grains;110;Organic_World_Black_Kavuni_Rice.png;1
+543;Organic World Moringa Leaf Powder;Food;Condiments;65;Organic_World_Moringa_Leaf_Powder.png;1
+544;P. V. S Dry Ginger Powder;Food;Spices;20;P_V_S_Dry_Ginger_Powder.png;1
+545;P.V.S Dry Ginger Powder Dry Ginger Powder;Food;Spices;50;P_V_S_Dry_Ginger_Powder_Dry_Ginger_Powder.png;1
+546;Packia Pure Castor Oil;Food;Oils;40;Packia_Pure_Castor_Oil.png;1
+547;Pankajakasthuri Breathe Eazy Granules;Personal Care;Medicine;160;Pankajakasthuri_Breathe_Eazy_Granules.png;1
+548;Pankajakasthuri Othoherb Tablet;Personal Care;Medicine;135;Pankajakasthuri_Othoherb_Tablet.png;1
+549;Papa's Banana Stem;Food;Condiments;28;Papa_s_Banana_Stem.png;1
+550;Papa's Coriander Rice Mix;Food;Condiments;28;Papa_s_Coriander_Rice_Mix.png;1
+551;Papa's Mango Thokku Pickle;Food;Condiments;28;Papa_s_Mango_Thokku_Pickle.png;1
+552;Papa's Onion Pickle;Food;Condiments;28;Papa_s_Onion_Pickle.png;1
+553;Papa's Vallarai Thuvayal;Food;Condiments;28;Papa_s_Vallarai_Thuvayal.png;1
+554;Paper Boat Food And Memories Paper Boat Banana Chips;Food;Snacks.;10;Paper_Boat_Food_And_Memories_Paper_Boat_Banana_Chips.png;1
+555;Parachute Coconut Hair Oil;Food;Oils;69;Parachute_Coconut_Hair_Oil.png;1
+556;Parimal Jiyo Enriching Life Incense;Household;Pooja;55;Parimal_Jiyo_Enriching_Life_Incense.png;1
+557;Parimal Jiyo Enriching Life Rose Premium Incense;Household;Pooja;55;Parimal_Jiyo_Enriching_Life_Rose_Premium_Incense.png;1
+558;Pasi Paruppu Dal;Food;pulses;45;Pasi_Paruppu_Dal.png;1
+559;PCR Maharaja Tailam;Food;Oils;65;PCR_Maharaja_Tailam.png;1
+560;Pears Pure And Gentle Soap;Personal Care;Bath;67;Pears_Pure_And_Gentle_Soap.png;1
+561;People Care Aloe Vera Soap;Personal Care;Produce;32;People_Care_Aloe_Vera_Soap.png;1
+562;People Care Natural Lemon Soap;Personal Care;Personal care;32;People_Care_Natural_Lemon_Soap.png;1
+563;People Care Sandal Soap;Personal Care;Bath;32;People_Care_Sandal_Soap.png;1
+564;Pepsi Diet Cool Drink;Food;Beverages;30;Pepsi_Diet_Cool_Drink.png;1
+565;Pril Perfect Kraft Gel;Household;Dishwashing;"45;96";Perfect_Kraft_Grl_Pril.png;1
+566;Pithambari Shining Powder;Household;Cleaners;42;Pithambari_Shining_Powder.png;1
+567;Point Advance Liquid Detergent;Household;Detergent;250;Point_Advance_Liquid_Detergent.png;1
+568;Ponds Startight Talc;Personal Care;Bath;"55;99";Ponds_Ponds_Startight_Talc.png;1
+569;Ponds Talc Acacia Honey;Personal Care;Bath;"55;99";Ponds_Ponds_Talc_Acacia_Honey.png;1
+570;Ponvandu Detergent Powder;Household;Detergent;65;Ponvandu_Detergent_Powder.png;1
+571;Porna Pooja Oil;Food;Condiments;74;Porna_Pooja_Oil.png;1
+572;Pure Aloe Green Luxury Bathing Bar Soap;Personal Care;Bath;80;Pure_Aloe_Green_Luxury_Bathing_Bar_Soap.png;1
+573;Puttu Mami's Dinner Special Appalam;Food;Dinner;"80;38;30";Puttu_Mami_s_Dinner_Special_Appalam.png;1
+574;R.R. Herbs Chithrathai Powder;Food;Spices;40;R_R_Herbals_Chithrathai_Powder.png;1
+575;R.R.Herbs 32 Herbals Combain Powder Sugar Special Diabetes Special;Food;Food;40;R_R_Herbs_32_Herbals_Combain_Powder_Sugar_Special_Diabetes_Special.png;1
+576;R.R.Herbs Amman Pacharasi Powder;Food;Spices;30;R_R_Herbs_Amman_Pacharasi_Powder.png;1
+577;R.R.Herbs Astasuranam Powder;Food;Spices;50;R_R_Herbs_Astasuranam_Powder.png;1
+578;R.R.Herbs Kadukkai Powder;Food;Spices;20;R_R_Herbs_Kadukkai_Powder.png;1
+579;R.R.Herbs Karisalanganni Powder;Food;Spices;20;R_R_Herbs_Karisalanganni_Powder.png;1
+580;R.R.Herbs Karuvelam Thul;Food;Spices;20;R_R_Herbs_Karuvelam_Thul.png;1
+581;R.R.Herbs Karuvepillai Powder;Food;Spices;20;R_R_Herbs_Karuvepillai_Powder.png;1
+582;R.R.Herbs Katha Powder;Food;Spices;40;R_R_Herbs_Katha_Powder.png;1
+583;R.R.Herbs Korai Kizhangu Powder;Food;Spices;20;R_R_Herbs_Korai_Kizhangu_Powder.png;1
+584;R.R.Herbs Kuppaimeni Powder;Food;Spices;30;R_R_Herbs_Kuppaimeni_Powder.png;1
+585;R.R.Herbs Lavankapattai Powder;Food;Spices;40;R_R_Herbs_Lavankapattai_Powder.png;1
+586;R.R.Herbs Lemon Peel Powder;Personal Care;Beauty;40;R_R_Herbs_Lemon_Peel_Powder.png;1
+587;R.R.Herbs Maruthani Powder;Food;Spices;30;R_R_Herbs_Maruthani_Powder.png;1
+588;R.R.Herbs Mukirettai Powder;Food;Spices;40;R_R_Herbs_Mukirettai_Powder.png;1
+589;R.R.Herbs Multani Matti Powder;Personal Care;Beauty;20;R_R_Herbs_Multani_Matti_Powder.png;1
+590;R.R.Herbs Nilaavarai Powder;Food;Condiments;20;R_R_Herbs_Nilaavarai_Powder.png;1
+591;R.R.Herbs Nilappannakizhangu Powder;Food;Spices;50;R_R_Herbs_Nilappannakizhangu_Powder.png;1
+592;R.R.Herbs Nirmulli Vithu;Food;Spices;50;R_R_Herbs_Nirmulli_Vithu.png;1
+593;R.R.Herbs Nochhi Powder;Food;Spices;20;R_R_Herbs_Nochhi_Powder.png;1
+594;R.R.Herbs Parangi Chakkai Powder;Food;Spices;50;R_R_Herbs_Parangi_Chakkai_Powder.png;1
+595;R.R.Herbs Pirandai Powder;Food;Spices;30;R_R_Herbs_Pirandai_Powder.png;1
+596;R.R.Herbs Ponaganni Powder;Food;Spices;30;R_R_Herbs_Ponaganni_Powder.png;1
+597;R.R.Herbs Prangi Chakkai Powder;Food;Spices;50;R_R_Herbs_Prangi_Chakkai_Powder.png;1
+598;R.R.Herbs Puthina Keerai;Food;Spices;20;R_R_Herbs_Puthina_Keerai.png;1
+599;R.R.Herbs Seenthalkodi Powder;Food;Spices;20;R_R_Herbs_Seenthalkodi_Powder.png;1
+600;R.R.Herbs Thamara Malar Powder;Food;Spices;30;R_R_Herbs_Thamara_Malar_Powder.png;1
+601;R.R.Herbs Thaneer Vittan;Food;Spices;40;R_R_Herbs_Thaneer_Vittan.png;1
+602;R.R.Herbs Thimbai Powder;Food;Spices;20;R_R_Herbs_Thimbai_Powder.png;1
+603;R.R.Herbs Thirikadugu Powder;Food;Spices;60;R_R_Herbs_Thirikadugu_Powder.png;1
+604;R.R.Herbs Thiripalaa Powder;Food;Spices;30;R_R_Herbs_Thiripalaa_Powder.png;1
+605;R.R.Herbs Thottasinungi Powder;Food;Spices;30;R_R_Herbs_Thottasinungi_Powder.png;1
+606;R.R.Herbs Venthayam Powder;Food;Spices;20;R_R_Herbs_Venthayam_Powder.png;1
+607;R.S Krishna & Co Thenaimarakudi Oil;Personal Care;Ointment;52;R_S_Krishna_Co_Thenaimarakudi_Oil.png;1
+608;R.S.Pathy Flu Headache Medicine;Personal Care;Medicine;65;R_S_Pathy_Flu_Headache_Medicine.png;1
+609;Raja Herbal Products Lice Oil;Personal Care;Health;40;Raja_Herbal_Products_Lice_Oil.png;1
+610;Raja Sidhaa Marundagam Dhanvanthara Thailam;Personal Care;Medicine;150;Raja_Sidhaa_Marundagam_Dhanvanthara_Thailam.png;1
+611;Raja Sidhaa Marundagam Neerkorvai Mathirai;Personal Care;Medicine;60;Raja_Sidhaa_Marundagam_Neerkorvai_Mathirai.png;1
+612;Rajabogam Rice;Food;Rice.;62;Rajabogam_Rice.png;1
+613;Rajam Panakarkandu;Food;Candy;35;Rajam_Panakarkandu.png;1
+614;Rajam Sukku Coffee Mix;Food;Spices;46;Rajam_Sukku_Coffee_Mix.png;1
+615;Rajas Puffed Rice Sweets;Food;Snacks;35;Rajas_Puffed_Rice.png;1
+616;Rajas Sweets Rajas Kadalai Mittai;Food;Confectionery;55;Rajas_Sweets_Rajas_Kadalai_Mittai.png;1
+617;Rajas Sweets Peanut Balls;Food;Confectionery;50;Rajas_Sweets_Rajas_Peanut_Balls.png;1
+618;Rajas Sweets Pori Urundai;Food;Snacks;35;Rajas_Sweets_Rajas_Pori_Urundai.png;1
+619;Rajas Puffed Rice;Food;Snacks;20;Rajas_Sweets_Rajas_Puffed_Rice.png;1
+620;Rakshanas Super Market Bay Leaf;Food;Spices;10;Rakshanas_Super_Market_Bay_Leaf.png;1
+621;Rakshanas Super Market Black Channa;Food;Legume;46;Rakshanas_Super_Market_Black_Channa.png;1
+622;Rakshanas Super Market Cardomam;Food;Spices;20;Rakshanas_Super_Market_Cardomam.png;1
+623;Rakshanas Super Market Corn Fry;Food;Snacks.;18;Rakshanas_Super_Market_Corn_Fry.png;1
+624;Rakshanas Super Market Cumin;Food;Spices;34;Rakshanas_Super_Market_Cumin.png;1
+625;Rakshanas Super Market Fennel Seeds;Food;Spices;35;Rakshanas_Super_Market_Fennel_Seeds.png;1
+626;Rakshanas Super Market Green Gram;Food;Pulses;"55;28";Rakshanas_Super_Market_Green_Gram.png;1
+627;Rakshanas Super Market Green Peas Dry;Food;Pulses;55;Rakshanas_Super_Market_Green_Peas_Dry.png;1
+628;Rakshanas Super Market Horse Gram;Food;Pulses;18;Rakshanas_Super_Market_Horse_Gram.png;1
+629;Rakshanas Super Market Jaggery;Food;Condiments;75;Rakshanas_Super_Market_Jaggery.png;1
+630;Rakshanas Super Market Kalpasi;Food;Condiments;12;Rakshanas_Super_Market_Kalpasi.png;1
+631;Rakshanas Super Market Karamani Red;Food;Pulses;60;Rakshanas_Super_Market_Karamani_Red.png;1
+632;Rakshanas Super Market Karamani White;Food;Legume;55;Rakshanas_Super_Market_Karamani_White.png;1
+633;Rakshanas Super Market Mochai;Food;Pulses;55;Rakshanas_Super_Market_Mochai.png;1
+634;Rakshanas Super Market More Milakai;Food;Spices;30;Rakshanas_Super_Market_More_Milakai.png;1
+635;Rakshanas Super Market Muku;Food;Spices;20;Rakshanas_Super_Market_Muku.png;1
+636;Rakshanas Super Market Mustard Seeds;Food;Condiments;20;Rakshanas_Super_Market_Mustard_Seeds.png;1
+637;Rakshanas Super Market Onion Pappad;Food;Snacks.;25;Rakshanas_Super_Market_Onion_Papped.png;1
+638;Rakshanas Super Market Pattai Surul;Food;Spices;20;Rakshanas_Super_Market_Pattai_Surul.png;1
+639;Rakshanas Super Market Peanut;Food;Nuts;55;Rakshanas_Super_Market_Peanut.png;1
+640;Rakshanas Super Market Pepper;Food;Spices;65;Rakshanas_Super_Market_Pepper.png;1
+641;Rakshanas Super Market Poppy Seeds;Food;Spices;45;Rakshanas_Super_Market_Poppy_Seeds.png;1
+642;Rakshanas Super Market Ragi;Food;Grains;18;Rakshanas_Super_Market_Ragi.png;1
+643;Rakshanas Super Market Rajma;Food;Pulses;55;Rakshanas_Super_Market_Rajma.png;1
+644;Rakshanas Super Market Red Chilli Long;Food;Spices;140;Rakshanas_Super_Market_Red_Chilli_Long.png;1
+645;Rakshanas Super Market Red Chilli Round;Food;Spices;130;Rakshanas_Super_Market_Red_Chilli_Round.png;1
+646;Rakshanas Super Market Sago;Food;Grains;12;Rakshanas_Super_Market_Sago.png;1
+647;Rakshanas Super Market Star Leaf;Food;Spices;15;Rakshanas_Super_Market_Star_Leaf.png;1
+648;Rakshanas Super Market Tamarind;Food;Condiments;115;Rakshanas_Super_Market_Tamarind.png;1
+649;Rakshanas Super Market Turmeric Dry;Food;Spices;20;Rakshanas_Super_Market_Turmeric_Dry.png;1
+650;Rakshanas Super Market Vermicelli;Food;Pasta;20;Rakshanas_Super_Market_Vermicelli.png;1
+651;Rakshanas Super Market Whiye Channa;Food;Legume;55;Rakshanas_Super_Market_Whiye_Channa.png;1
+652;Redsun Omum Water;Food;Beverages;20;Redsun_Omum_Water.png;1
+653;Relish Fryums Triangle Snacks;Food;Snacks;20;Relish_Fryums_Triangle_Snacks.png;1
+654;Relish Gold Finger Snacks;Food;Snacks;20;Relish_Gold_Finger_Snacks.png;1
+655;Relish Moong Dal Snacks;Food;Lentils;49;Relish_Moong_Dal_Snacks.png;1
+656;Relish Mullu Muruku Snacks;Food;Snacks;49;Relish_Mullu_Muruku_Snacks.png;1
+657;Relish Ola Pakoda Snacks;Food;Snacks;40;Relish_Ola_Pakoda_Snacks.png;1
+658;Relish Rose Cookies Snacks;Food;Cookies;40;Relish_Rose_Cookies_Snacks.png;1
+659;Reynolds Pen Rorito;Personal Care;Office supplies;5;Reynolds_Pen_Rorito.png;1
+660;Rin Detergent Bar;Household;Detergent;5;Rin_Detergent_Bar.png;1
+661;Rin Fabric Whitener Ala;Household;Laundry;60;Rin_Fabric_Whitener_Ala.png;1
+662;Rks Multani Matty;Food;Spices;55;Rks_Multani_Matty.png;1
+663;RMR Gingelly Oil;Food;Oils;"195;385";RMR_Gingelly_Oil.png;1
+664;RMR Groundnut Oil;Food;Condiments;"155;285";RMR_Groundnut_Oil.png;1
+665;Ruchi Gold Mustard Oil;Food;Condiments;"32;66";Ruchi_Gold_Mustard_Oil.png;1
+666;Ruchi Magic Mango Thokku Pickle;Food;Condiments;70;Ruchi_Magic_Mango_Thokku_Pickle.png;1
+667;Russi Cold Pressed Coconut Oil;Food;Oil;150;Russi_Cold_Pressed_Coconut_Oil.png;1
+668;Russi Cold Pressed Sesame Oil;Food;Condiments;330;Russi_Cold_Pressed_Sesame_Oil.png;1
+669;Russi Groundnut Oil;Food;Condiments;220;Russi_Groundnut_Oil.png;1
+670;S K Classic Premium Ponni Boiled Rice;Food;Rice.;600;S_K_Classic_Premium_Ponni_Boiled_Rice.png;1
+671;S M Cottage Rose Water;Personal Care;Beauty;15;S_M_Cottage_Rose_Water.png;1
+672;S.Sithanathan Sons Javvathu Vaasanai Vibuthu;Food;Spices;10;S_Sithanathan_Sons_Javvathu_Vaasanai_Vibuthu.png;1
+673;Sabena Shine Everything;Household;Cleaning;12;Sabena_Shine_Everything.png;1
+674;Sai Bhajan Dhoop Bathi;Household;Pooja;50;Sai_Bhajan_Dhoop_Bathi.png;1
+675;Sakthi Ragi Flour;Food;Grains;36;Sakthi_Ragi_Flour.png;1
+676;Sampirani Bathies;Personal Care;Soap;18;Sampirani_Bathies.png;1
+677;Saravana Amla Juice;Food;Beverages;150;Saravana_Amla_Juice.png;1
+678;Saravana Amla Karela Jamun Herbal Juice;Food;Health drink;249;Saravana_Amla_Karela_Jamun_Herbal_Juice.png;1
+679;Saravana Avarampoo Juice;Food;Health drink;190;Saravana_Avarampoo_Juice.png;1
+680;Saravana Fig Juice;Food;Health drink;249;Saravana_Fig_Juice.png;1
+681;Saravana Flax Seed With Arjuna Amla Herbal Juice;Personal Care;Health;279;Saravana_Flax_Seed_With_Arjuna_Amla_Herbal_Juice.png;1
+682;Saravana Herbal Juice Triphala;Food;Health drink;190;Saravana_Herbal_Juice_Triphala.png;1
+683;Saravana Kodampuli Kollusaru;Household;Pooja;360;Saravana_Kodampuli_Kollusaru.png;1
+684;Saravana Musli With Fig Herbal Juice Musli;Food;Health drink;720;Saravana_Musli_With_Fig_Herbal_Juice_Musli.png;1
+685;Saravana Punaravana Herbal Juice;Food;Health drink;279;Saravana_Punaravana_Herbal_Juice.png;1
+686;Saravana Thuththi Indian Mallow Herbal Juice;Personal Care;Medicine;225;Saravana_Thuththi_Indian_Mallow_Herbal_Juice.png;1
+687;Sensodyne New Soft Daily Care Toothbrush;Personal Care;Oral;29;Sensodyne_New_Soft_Daily_Care_Toothbrush.png;1
+688;Sensodyne Sensitive (Soft) Toothbrush;Personal Care;Oral;"48;75";Sensodyne_Sensitive_Soft_Toothbrush.png;1
+689;Sensodyne Sensitive Gentle On Teeth Soft (3 Pack) Toothbrush;Personal Care;Oral;97;Sensodyne_Sensitive_Gentle_On_Teeth_Soft_3_Pack_Toothbrush.png;1
+690;Shalimar Flora Fluxo Incense;Household;Pooja;75;Shalimar_Flora_Fluxo_Incense.png;1
+691;Shiba Snacks Shiba Mixture;Food;Snacks;38;Shiba_Snacks_Shiba_Mixture.png;1
+692;Shiv Ganga Ganga Gal Ganga Gal;Food;Beverages;110;Shiv_Ganga_Ganga_Gal_Ganga_Gal.png;1
+693;Shiv Ganga Ganga Water;Food;Beverages;25;Shiv_Ganga_Ganga_Watet.png;1
+694;Shiv Ganga Pure Ganga Jal Ganga Jal;Food;Beverages;21;Shiv_Ganga_Pure_Ganga_Jal_Ganga_Jal.png;1
+695;Shower To Shower Cologne Cool Prickly Heat Powder;Personal Care;Bath;"52;105";Shower_To_Shower_Cologne_Cool_Prickly_Heat_Powder.png;1
+696;Shrika Groundnut Cake;Food;Sweets;40;Shrika_Groundnut_Cake.png;1
+697;Shrika Kampu Ghee Cake;Food;Desserts;40;Shrika_Kampu_Ghee_Cake.png;1
+698;Shrika Pottu Kadalai Ghee Cake;Food;sweets;40;Shrika_Pottu_Kadalai_Ghee_Cake.png;1
+699;Shrika Sesame Cake;Food;Snacks;"20;40";Shrika_Sesame_Cake.png;1
+700;Shrika Sweets Ragi Ghee Cake;Food;Dessert;40;Shrika_Sweets_Ragi_Ghee_Cake.png;1
+701;Sibiya Snacks Sibiya Kara Sev;Food;snacks;38;Sibiya_Snacks_Sibiya_Kara_Sev.png;1
+702;Sibiya Snacks Sibiya Potato Chelli;Food;Snacks;38;Sibiya_Snacks_Sibiya_Potato_Chelli.png;1
+703;Sibiya Snacks Sibiya Verkadalai;Food;Snacks.;38;Sibiya_Snacks_Sibiya_Verkadalai.png;1
+704;Sibiya Snacks Sibiya White Muruku;Food;snacks;38;Sibiya_Snacks_Sibiya_White_Muruku.png;1
+705;SKC Premium Ghee For Food;Food;Dairy;"166;400";SKC_Premium_Ghee_For_Food.png;1
+706;Sliver Brite Scrub Pad;Household;Dishwashing;15;Sliver_Brite_Scrub_Pad.png;1
+707;Solaimalai Drugs Nerunjil Syrup;Personal Care;Medicine;170;Solaimalai_Drugs_Nerunjil_Syrup.png;1
+708;Special Candels;Household;Household;28;Special_Candels.png;1
+709;Spinz BB Talcum Powder;Personal Care;Cosmetics;"75;45";Spinz_BB_Talcum_Powder.png;1
+710;Spinz Fantasy Talcum Powder;Personal Care;Bath and Beauty;"74;37";Spinz_Fantasy_Talcum_Powder.png;1
+711;Spot Out Ant Killer Powder;Household;Insecticides.;40;Spot_Out_Ant_Killer_Powder.png;1
+712;Spot Out Flies Killer;Household;Insecticides.;24;Spot_Out_Flies_Killer.png;1
+713;Spotzero Steel Scrub;Food;Kitchen;30;Spotzero_Steel_Scrub.png;1
+714;Spotzero Utensil Sponge & Scrub;Food;Kitchen;20;Spotzero_Utensil_Sponge_Scrub.png;1
+715;Sreealagar Sweets Barfee Rs 5 Big Jar & Small Jar;Food;Sweets;300;Sreealagar_Sweets_Barfee_Rs_5_Big_Jar_Small_Jar.png;1
+716;Sri Mathaji Garlic Appalam Chips;Food;Snacks;25;Sri_Mathaji_Garlic_Appalam_Chips.png;1
+717;Sri Shanthi Oil Stores Badam;Food;Nuts;220;Sri_Shanthi_Oil_Stores_Badam.png;1
+718;Sri Shanthi Oil Stores Cashew Nuts;Food;Nuts;"230;92";Sri_Shanthi_Oil_Stores_Cashew_Nuts.png;1
+719;Sri Shanthi Oil Stores Coconut Oil;Food;Condiments;145;Sri_Shanthi_Oil_Stores_Coconut_Oil.png;1
+720;Sri Shanthi Oil Stores Dry Athii;Food;Dried fruit;240;Sri_Shanthi_Oil_Stores_Dry_Athii.png;1
+721;Sri Shanthi Oil Stores Dry Grapes;Food;Dried fruit;95;Sri_Shanthi_Oil_Stores_Dry_Grapes.png;1
+722;Sri Shanthi Oil Stores Five Oil Combines Deepam Oil;Food;Condiments;"170;90";Sri_Shanthi_Oil_Stores_Five_Oil_Combines_Deepam_Oil.png;1
+723;Sri Shanthi Oil Stores Javvarusi;Food;Dry goods;25;Sri_Shanthi_Oil_Stores_Javvarusi.png;1
+724;Sri Shanthi Oil Stores Kadalennai;Food;Condiments;"175;90";Sri_Shanthi_Oil_Stores_Kadalennai.png;1
+725;Sri Shanthi Oil Stores Kan Dhristi Kid;Food;Condiments;195;Sri_Shanthi_Oil_Stores_Kan_Dhristi_Kid.png;1
+726;Sri Shanthi Oil Stores Karuppu Ulunthu;Food;Pulses;32;Sri_Shanthi_Oil_Stores_Karuppu_Ulunthu.png;1
+727;Sri Shanthi Oil Stores Mochai;Food;Legume;22;Sri_Shanthi_Oil_Stores_Mochai.png;1
+728;Sri Shanthi Oil Stores Pachai Pattani;Food;Legume;25;Sri_Shanthi_Oil_Stores_Pachai_Pattani.png;1
+729;Sri Shanthi Oil Stores Pachai Payuru;Food;Pulses;30;Sri_Shanthi_Oil_Stores_Pachai_Payuru.png;1
+730;Sri Shanthi Oil Stores Pista;Food;Nuts;120;Sri_Shanthi_Oil_Stores_Pista.png;1
+731;Sri Shanthi Oil Stores Saara Paruppu;Food;pulses;65;Sri_Shanthi_Oil_Stores_Saara_Paruppu.png;1
+732;Sri Shanthi Oil Stores Thuvarai;Food;pulses;40;Sri_Shanthi_Oil_Stores_Thuvarai.png;1
+733;Sri Shanthi Oil Stores Vellai Karamani;Food;Legume;40;Sri_Shanthi_Oil_Stores_Vellai_Karamani.png;1
+734;Sri Shanthi Oil Stores Velleri Vithai;Food;Condiments;30;Sri_Shanthi_Oil_Stores_Velleri_Vithai.png;1
+735;Sri Shanthi Oil Stores Vendhayam;Food;Condiments;30;Sri_Shanthi_Oil_Stores_Vendhayam.png;1
+736;Sri Shanthi Oil Stores White Mookadalai;Food;Legume;22;Sri_Shanthi_Oil_Stores_White_Mookadalai.png;1
+737;SSHFP Curry Leaves Powder;Food;Spices;40;SSHFP_Curry_Leaves_Powder.png;1
+738;SSHFP Idly Powder;Food;Condiments;40;SSHFP_Idly_Powder_Idly_Powder.png;1
+739;SSHFP Mint Powder;Food;Condiments;40;SSHFP_Mint_Powder_Mint_Powder.png;1
+740;SSHFP Paruppu Powder;Food;Condiments;40;SSHFP_Paruppu_Powder_Paruppu_Powder.png;1
+741;SSHFP Rasam Powder;Food;Spices;40;SSHFP_Rasam_Powder_Rasam_Powder.png;1
+742;SSHFP Sambar Powder;Food;Spices;40;SSHFP_Sambar_Powder_Sambar_Powder.png;1
+743;SSHFP Sesame Powder;Food;Condiments;40;SSHFP_Sesame_Powder_Sesame_Powder.png;1
+744;Star Corn Flour;Food;Baking;35;Star_Corn_Flour.png;1
+745;Store Brand Black Gram Powder;Food;Spices;35;Store_Brand_Black_Gram_Powder.png;1
+746;Store Brand Chettinadu Kulambu Powder;Food;Spices;50;Store_Brand_Chettinadu_Kulambu_Powder.png;1
+747;Store Brand Chilli Powder;Food;Spices;35;Store_Brand_Chilli_Powder.png;1
+748;Store Brand Color Papad;Food;Snacks;40;Store_Brand_Color_Papad.png;1
+749;Store Brand Field Bean;Food;Pulses;108;Store_Brand_Field_Bean.png;1
+750;Store Brand Foxtail Millet;Food;Grains;80;Store_Brand_Foxtail_Millet.png;1
+751;Store Brand Little Millet Upma Rava (Semolina);Food;Grains;130;Store_Brand_Little_Millet_Upma_Rava_Semolina.png;1
+752;Store Brand Multi Millet Roti Flour;Food;Flour;170;Store_Brand_Multi_Millet_Roti_Flour.png;1
+753;Store Brand Proso Millet;Food;Millet;95;Store_Brand_Proso_Millet.png;1
+754;Store Brand Puli Kara Kulambu Podi;Food;Spices;50;Store_Brand_Puli_Kara_Kulambu_Podi.png;1
+755;Store Brand Samai Pongal Mix;Food;Grains;69;Store_Brand_Samai_Pongal_Mix.png;1
+756;Store Brand Sambar Powder;Food;Spices;40;Store_Brand_Sambar_Powder.png;1
+757;Store Brand Sorghum Millet Upma Rava (Semolina);Food;Grains;90;Store_Brand_Sorghum_Millet_Upma_Rava_Semolina.png;1
+758;Store Brand Thinai Pongal Mix;Food;Grains;69;Store_Brand_Thinai_Pongal_Mix.png;1
+759;Sugandha Swarna Incense Stick;Household;Pooja;75;Sugandha_Swarna_Incense_Stick.png;1
+760;Sunflower Roasted Vermicelli;Food;Pasta;16;Sunflower_Roasted_Vermicelli.png;1
+761;Sunflower Whole Wheat Vermicelli;Food;Pasta;23;Sunflower_Whole_Wheat_Vermicelli.png;1
+762;Sunsee's Traditional Mapillai Sambar Rice;Food;Rice.;120;Sunsee_s_Traditional_Mapillai_Sambar_Rice.png;1
+763;Sunsee's Traditional Zeera Sambha Rice;Food;Rice.;120;Sunsee_s_Traditional_Zeera_Sambha_Rice.png;1
+764;Super Alox Spotzero Utensil Green;Household;Dishwashing;10;Super_Alox_Spotzero_Utensil_Green.png;1
+765;Surface Cleaner Bison My Zol;Household;Floor cleaner;69;Surface_Cleaner_Bison_My_Zol.png;1
+766;Surface Cleaner Lyra Excel Lemon;Household;Cleaning;35;Surface_Cleaner_Lyra_Excel_Lemon.png;1
+767;Surfexcel Easy Wash Detergent Powder;Household;Laundry;58;Surfexcel_Easy_Wash_Detergent_Powder.png;1
+768;Surfexcel Matic Top Load Detergent Liquid;Household;Detergent;199;Surfexcel_Matic_Top_Load_Detergent_Liquid.png;1
+769;Surfexcel Matic Wash Front Load Detergent Liquid;Household;Laundry;115;Surfexcel_Matic_Wash_Front_Load_Detergent_Liquid.png;1
+770;Surfexcel Quick Wash Detergent Powder;Household;Detergent;10;Surfexcel_Quick_Wash_Detergent_Powder.png;1
+771;Surya Salt;Food;Condiments;16;Surya_Salt.png;1
+772;T Nature Himalaya Rock Salt;Food;Condiments;85;T_Nature_Himalaya_Rock_Salt.png;1
+773;T Nature Jaggery Powder;Food;Condiments;26;T_Nature_Jaggery_Powder.png;1
+774;Tamilnadu Herbal Arugampul Powder;Food;Spices;20;Tamilnadu_Herbal_Arugampul_Powder.png;1
+775;Tamilnadu Herbal Athimathuram Powder;Food;Spices;40;Tamilnadu_Herbal_Athimathuram_Powder.png;1
+776;Tamilnadu Herbal Gymnema Sylvestre Powder;Food;Spices;30;Tamilnadu_Herbal_Gymnema_Sylvestre_Powder.png;1
+777;Tamilnadu Herbal Hibiscus Powder;Food;Spices;50;Tamilnadu_Herbal_Hibiscus_Powder.png;1
+778;Tamilnadu Herbal Red Sandal Wood Powder;Food;Spices;40;Tamilnadu_Herbal_Red_Sandal_Wood_Powder.png;1
+779;Tamilnadu Herbal Thulasi Powder;Food;Spices;30;Tamilnadu_Herbal_Thulasi_Powder.png;1
+780;Tamilnadu Herbal Tribulus Powder;Food;Spices;40;Tamilnadu_Herbal_Tribulus_Powder.png;1
+781;Tamilnadu Herbals Jamun Seeds Powder;Food;Spices;20;Tamilnadu_Herbals_Jamun_Seeds_Powder.png;1
+782;Tapovana Bajra Dosa Mix;Food;Condiments;52;Tapovana_Bajra_Dosa_Mix.png;1
+783;Tapovana Bajra Flour;Food;Grains;52;Tapovana_Bajra_Flour.png;1
+784;Tapovana Bajra Rava;Food;Grains;48;Tapovana_Bajra_Rava.png;1
+785;Tapovana Bamboo Rice;Food;Grains;155;Tapovana_Bamboo_Rice.png;1
+786;Tapovana Barley Porridge Mix;Food;Grains;98;Tapovana_Barley_Porridge_Mix.png;1
+787;Tapovana Barnyard Flour;Food;Grains;96;Tapovana_Barnyard_Flour.png;1
+788;Tapovana Barnyard Millet;Food;Grains;98;Tapovana_Barnyard_Millet.png;1
+789;Tapovana Barnyard Rava;Food;Grains;90;Tapovana_Barnyard_Rava.png;1
+790;Tapovana Besan;Food;Legume;70;Tapovana_Besan.png;1
+791;Tapovana Besan Flour;Food;Flour;38;Tapovana_Besan_Flour.png;1
+792;Tapovana Black Cumin Seeds;Food;Spices;55;Tapovana_Black_Cumin_Seeds.png;1
+793;Tapovana Black Gram ( Karuppu Kollu);Food;Spices;48;Tapovana_Black_Gram_Karuppu_Kollu.png;1
+794;Tapovana Black Kavuni Upma Mix;Food;Food;135;Tapovana_Black_Kavuni_Upma_Mix.png;1
+795;Tapovana Black Rice;Food;Grains;105;Tapovana_Black_Rice.png;1
+796;Tapovana Boiled Rice;Food;Rice;375;Tapovana_Boiled_Rice.png;1
+797;Tapovana Broken Channa;Food;pulses;45;Tapovana_Broken_Channa.png;1
+798;Tapovana Brown Channa;Food;pulses;76;Tapovana_Brown_Channa.png;1
+799;Tapovana Brown County Egg;Food;Dairy;100;Tapovana_Brown_County_Egg.png;1
+800;Tapovana Brown Sugar ( Nattu Sakkarai);Food;Condiments;56;Tapovana_Brown_Suger_Nattu_Sakkarai.png;1
+801;Tapovana Cashew Nuts;Food;Nuts;185;Tapovana_Cashew_Nuts.png;1
+802;Tapovana Chilly Powder;Food;Spices;52;Tapovana_Chilly_Powder.png;1
+803;Tapovana Corriander Powder;Food;Spices;15;Tapovana_Corriander_Powder.png;1
+804;Tapovana Dhall Rice Powder;Food;Spices;55;Tapovana_Dhall_Rice_Powder.png;1
+805;Tapovana Dhaniya;Food;Condiments;45;Tapovana_Dhaniya.png;1
+806;Tapovana Diabetic Porridge Health Mix;Food;Food;175;Tapovana_Diabetic_Porridge_Health_Mix.png;1
+807;Tapovana Dry Grapes Brown;Food;Dried fruit;45;Tapovana_Dry_Grapes_Brown.png;1
+808;Tapovana Fennel;Food;Condiments;35;Tapovana_Fennel.png;1
+809;Tapovana Fenugreek;Food;Spice;20;Tapovana_Fenugreek.png;1
+810;Tapovana Foxtail Flour;Food;Flour;90;Tapovana_Foxtail_Flour.png;1
+811;Tapovana Foxtail Rava;Food;Grains;98;Tapovana_Foxtail_Rava.png;1
+812;Tapovana Foxtail Rice;Food;Grains;88;Tapovana_Foxtail_Rice.png;1
+813;Tapovana Grains Rava;Food;Grains;120;Tapovana_Grains_Rava.png;1
+814;Tapovana Green Gram;Food;Pulses;80;Tapovana_Green_Gram.png;1
+815;Tapovana Ground Nut Oil;Food;Oil;145;Tapovana_Ground_Nut_Oil.png;1
+816;Tapovana Groundnut;Food;Nuts;100;Tapovana_Groundnut.png;1
+817;Tapovana Honey Forest;Food;Condiments;185;Tapovana_Honey_Forest.png;1
+818;Tapovana Horse Gram Porridge Mix;Food;Grains;175;Tapovana_Horse_Gram_Porridge_Mix.png;1
+819;Tapovana Idicha Sambar Powder;Food;Spices;75;Tapovana_Idicha_Sambar_Powder.png;1
+820;Tapovana Idly & Dosa Batter;Food;Condiments;50;Tapovana_Idly_Dosa_Batter.png;1
+821;Tapovana Idly Ellu Powder;Food;Spices;65;Tapovana_Idly_Ellu_Powder.png;1
+822;Tapovana Idly Powder;Food;Condiments;55;Tapovana_Idly_Powder.png;1
+823;Tapovana Idly Rice;Food;Rice.;60;Tapovana_Idly_Rice.png;1
+824;Tapovana Kambu Mavu Mix;Food;Millet;55;Tapovana_Kambu_Mavu_Mix.png;1
+825;Tapovana Karunkuruvai Rice;Food;Spices;75;Tapovana_Karunkuruvai_Rice.png;1
+826;Tapovana Kattu Yanam Rice;Food;Organic;75;Tapovana_Kattu_Yanam_Rice.png;1
+827;Tapovana Kerala Red Rice;Food;Grains;54;Tapovana_Kerala_Red_Rice.png;1
+828;Tapovana Kichilli Samba Rice;Food;Grains;68;Tapovana_Kichilli_Samba_Rice.png;1
+829;Tapovana Kodo Flour;Food;Millet;85;Tapovana_Kodo_Flour.png;1
+830;Tapovana Kodo Millet;Food;Grains;85;Tapovana_Kodo_Millet.png;1
+831;Tapovana Kodo Rava;Food;Grains;98;Tapovana_Kodo_Rava.png;1
+832;Tapovana Little Millet Rice;Food;Grains;98;Tapovana_Little_Millet_Rice.png;1
+833;Tapovana Little Rava;Food;Grains;100;Tapovana_Little_Rava.png;1
+834;Tapovana Mappilai Samba Rice;Food;Grains;72;Tapovana_Mappilai_Samba_Rice.png;1
+835;Tapovana Mappillai Samba Health Mix;Food;Grains;220;Tapovana_Mappillai_Samba_Health_Mix.png;1
+836;Tapovana Mappillai Samba Multigrain Health Mixed Rava;Food;Grains;132;Tapovana_Mappillai_Samba_Multigrain_Health_Mixed_Rava.png;1
+837;Tapovana Millet Dosa Batter;Food;Condiments;50;Tapovana_Millet_Dosa_Batter.png;1
+838;Tapovana Moong Dhall;Food;Lentils;85;Tapovana_Moong_Dhall.png;1
+839;Tapovana Mustard;Food;Condiments;18;Tapovana_Mustard.png;1
+840;Tapovana Navathaniya Flour;Food;Grains;120;Tapovana_Navathaniya_Flour.png;1
+841;Tapovana Pattai;Food;Spices;15;Tapovana_Pattai.png;1
+842;Tapovana Pepper;Food;Spices;106;Tapovana_Pepper.png;1
+843;Tapovana Proso Millet;Food;Millet;78;Tapovana_Proso_Millet.png;1
+844;Tapovana Ragi;Food;Condiments;40;Tapovana_Ragi.png;1
+845;Tapovana Ragi Dosa Mix;Food;Flour;130;Tapovana_Ragi_Dosa_Mix.png;1
+846;Tapovana Ragi Flour;Food;Grains;45;Tapovana_Ragi_Flour.png;1
+847;Tapovana Ragi Rava;Food;Grains;70;Tapovana_Ragi_Rava.png;1
+848;Tapovana Raw Rice;Food;Organic;80;Tapovana_Raw_Rice.png;1
+849;Tapovana Red Long Chilly;Food;Spices;65;Tapovana_Red_Long_Chilly.png;1
+850;Tapovana Red Maize Flour;Food;Grains;90;Tapovana_Red_Maize_Flour.png;1
+851;Tapovana Red Marize Rava;Food;Grains;90;Tapovana_Red_Marize_Rava.png;1
+852;Tapovana Red Rice;Food;Grains;54;Tapovana_Red_Rice.png;1
+853;Tapovana Rock Salt Crystal;Food;Condiments;42;Tapovana_Rock_Salt_Crystal.png;1
+854;Tapovana Samba Wheat Little Millet Dosa & Chapathi Mix;Food;Grains;78;Tapovana_Samba_Wheat_Little_Millet_Dosa_Chapathi_Mix.png;1
+855;Tapovana Samba Wheat Rava;Food;Grains;80;Tapovana_Samba_Wheat_Rava.png;1
+856;Tapovana Seeraga Samba Rice;Food;Rice;80;Tapovana_Seeraga_Samba_Rice.png;1
+857;Tapovana Sirakam;Food;Spices;56;Tapovana_Sirakam.png;1
+858;Tapovana Small Millet Adai Mix;Food;Millets;170;Tapovana_Small_Millet_Adai_Mix.png;1
+859;Tapovana Small Millet Mix;Food;Grains;132;Tapovana_Small_Millet_Mix.png;1
+860;Tapovana Small Millets Dosa Mix;Food;Millets.;130;Tapovana_Small_Millets_Dosa_Mix.png;1
+861;Tapovana Snacks;Food;snacks;75;Tapovana_Snacks.png;1
+862;Tapovana Tamarind;Food;Condiments;112;Tapovana_Tamarind.png;1
+863;Tapovana Thanga Samba Rice;Food;Grains;78;Tapovana_Thanga_Samba_Rice.png;1
+864;Tapovana Thinai Rava Upma Mix;Food;Condiments;68;Tapovana_Thinai_Rava_Upma_Mix.png;1
+865;Tapovana Thuyamalli Rice;Food;Rice.;68;Tapovana_Thuyamalli_Rice.png;1
+866;Tapovana Toor Dhall;Food;Lentils;90;Tapovana_Toor_Dhall.png;1
+867;Tapovana Traditional Mappillai Samba Dosa Mix;Food;Condiments;112;Tapovana_Traditional_Mappillai_Samba_Dosa_Mix.png;1
+868;Tapovana Traditional Sixty Kuruvai Rice;Food;Grains;75;Tapovana_Traditional_Sixty_Kuruvai_Rice.png;1
+869;Tapovana Traditional Wooden Pressed Gingely Oil;Food;Condiments;253;Tapovana_Traditional_Wooden_Pressed_Gingely_Oil.png;1
+870;Tapovana Turmeric Powder;Food;Spices;32;Tapovana_Turmeric_Powder.png;1
+871;Tapovana Urad Dal Porridge Mix;Food;Food;90;Tapovana_Urad_Dal_Porridge_Mix.png;1
+872;Tapovana Urad Dhall;Food;Food;76;Tapovana_Urad_Dhall.png;1
+873;Tapovana Wheat;Food;Grains;74;Tapovana_Wheat.png;1
+874;Tapovana Wheat Flour;Food;Condiments;40;Tapovana_Wheat_Flour.png;1
+875;Tasty Nibbles Cut Mango Pickle;Food;Condiments;39;Tasty_Nibbles_Cut_Mango_Pickle.png;1
+876;Tasty Nibbles Lime Pickle;Food;Condiments;39;Tasty_Nibbles_Lime_Pickle.png;1
+877;Tasty Nibbles Mixed Vegetable Pickle;Food;Condiments;45;Tasty_Nibbles_Mixed_Vegetable_Pickle.png;1
+878;The Chocolate Cake Choco Chips Biscuits;Food;Bakery;50;The_Chocolate_Cake_Choco_Chips_Biscuits.png;1
+879;The Chocolate Cake Factory Butter Biscuits;Food;Bakery;50;The_Chocolate_Cake_Factory_Butter_Biscuits.png;1
+880;The Chocolate Cake Factory Chicken Puff;Food;Bakery;25;The_Chocolate_Cake_Factory_Chicken_Puff.png;1
+881;The Chocolate Cake Factory Chicken Roll;Food;Bakery;30;The_Chocolate_Cake_Factory_Chicken_Roll.png;1
+882;The Chocolate Cake Factory Coconut Biscuits;Food;Bakery;50;The_Chocolate_Cake_Factory_Coconut_Biscuits.png;1
+883;The Chocolate Cake Factory Egg Puff;Food;Bakery;15;The_Chocolate_Cake_Factory_Egg_Puff.png;1
+884;The Chocolate Cake Factory Egg Roll;Food;Bakery;25;The_Chocolate_Cake_Factory_Egg_Roll.png;1
+885;The Chocolate Cake Factory Paneer Puff;Food;Bakery;25;The_Chocolate_Cake_Factory_Paneer_Puff.png;1
+886;The Chocolate Cake Factory Paneer Roll;Food;Bakery;25;The_Chocolate_Cake_Factory_Paneer_Roll.png;1
+887;The Chocolate Cake Factory Veg Puff;Food;Bakery;15;The_Chocolate_Cake_Factory_Veg_Puff.png;1
+888;The Chocolate Cake Factory Veg Supreme;Food;Bakery;25;The_Chocolate_Cake_Factory_Veg_Supreme.png;1
+889;Thumbai Gingelly Oil;Food;Oil;161;Thumbai_Gingelly_Oil.png;1
+890;Too Yumm Karare Munchy Masala;Food;Snacks;10;Too_Yumm_Karare_Munchy_Masala.png;1
+891;Too Yumm Karare Noodle Masala;Food;Snacks;10;Too_Yumm_Karare_Noodle_Masala.png;1
+892;Top Star Vermicelli;Food;Pasta;18;Top_Star_Vermicelli.png;1
+893;Topper Gel Pen Black;Personal Care;Stationery;200;Topper_Gel_Pen_Black.png;1
+894;Topper Gel Pen Blue;Stationary;Stationary;200;Topper_Gel_Pen_Blue.png;1
+895;Topper Gel Pen Red;Stationary;Stationary;200;Topper_Gel_Pen_Red.png;1
+896;Tprg Dasangam Dhoop Powder;Household;Pooja;30;Tprg_Dasangam_Dhoop_Powder.png;1
+897;Tprg Mari Kolundhu Attar;Household;Pooja;75;Tprg_Mari_Kolundhu_Attar.png;1
+898;Triple Action My Toilet Cleaner;Household;Cleaning;82;Triple_Action_My_Toilet_Cleaner.png;1
+899;Trusalt Iodised Crystal Salt;Food;Condiments;16;Trusalt_Iodised_Crystal_Salt.png;1
+900;Twinkle Floor Cleaner Fresh Flower;Household;Cleaning;72;Twinkle_Floor_Cleaner_Fresh_Flower.png;1
+901;Twinkle Foor Cleaner Lavander;Household;Detergent;66;Twinkle_Foor_Cleaner_Lavander.png;1
+902;Twinkle Toilet Cleaner;Household;Cleaning;30;Twinkle_Toilet_Cleaner.png;1
+903;Udhaiyam Crystal Salt;Food;Condiments;16;Udhaiyam_Crystal_Salt.png;1
+904;Udhaiyam Gram Dhall;Food;Grains;98;Udhaiyam_Gram_Dhall.png;1
+905;Udhaiyam Idly Rice;Food;Rice.;53;Udhaiyam_Idly_Rice.png;1
+906;Udhaiyam Lamp Oil;Food;Oil;22;Udhaiyam_Lamp_Oil.png;1
+907;Udhaiyam Moong Dhall;Food;Lentils;63;Udhaiyam_Moong_Dhall.png;1
+908;Udhaiyam Orid Dhall;Food;Lentils;115;Udhaiyam_Orid_Dhall.png;1
+909;Udhaiyam Sugar;Food;Condiments;58;Udhaiyam_Sugar.png;1
+910;Udhaiyam Toor Dhall;Food;Lentils;130;Udhaiyam_Toor_Dhall.png;1
+911;Udhayaoil Lamp Oil;Food;Oil;70;Udhayaoil_Lamp_Oil.png;1
+912;V Care Henna Nature Powder Black Hair Colour;Personal Care;Beauty;85;V_Care_Henna_Nature_Powder_Black_Hair_Colour.png;1
+913;V Care Herbal Hair Wash And Conditioner;Personal Care;Haircare;55;V_Care_Herbal_Hair_Wash_And_Conditioner.png;1
+914;Vajram Sun Dried Fruit;Food;Dried fruit;350;Vajram_Sun_Dried_Fruit.png;1
+915;Varagu Cookies;Food;Cookies;35;Varagu_Cookies.png;1
+916;Varam Multigrains Ground Nut Candy;Food;Snacks;25;Varam_Multigrains_Ground_Nut_Candy.png;1
+917;Varam Nandhiram Chips;Food;Snacks.;25;Varam_Nandhiram_Chips.png;1
+918;Varam Varaku Mixture;Food;Snacks;25;Varam_Varaku_Mixture.png;1
+919;Vee Vee  Double Refinded Sugar ;Food;Sugar;30;Vee_Vee_Double_Refinded_Sugar.png;1
+920;Veggies Appalam;Food;Dairy;35;Veggies_Appalam.png;1
+921;Veggies Fresh Badam Nuts;Food;Nuts;58;Veggies_Fresh_Badam_Nuts.png;1
+922;Veggies Fresh Black Jeera;Food;Spices;16;Veggies_Fresh_Black_Jeera.png;1
+923;Veggies Fresh Cashew Splited;Food;Nuts;119;Veggies_Fresh_Cashew_Splited.png;1
+924;Veggies Fresh Dry Fig;Food;Dried fruit;72;Veggies_Fresh_Dry_Fig.png;1
+925;Veggies Fresh Khus Khus;Food;Condiments;48;Veggies_Fresh_Khus_Khus.png;1
+926;Veggies Fresh Methi;Food;Condiments;12;Veggies_Fresh_Methi.png;1
+927;Veggies Fresh Mustard;Food;Condiments;7;Veggies_Fresh_Mustard.png;1
+928;Veggies Fresh Mustard Big;Food;Condiments;12;Veggies_Fresh_Mustard_Big.png;1
+929;Veggies Fresh Pista;Food;Nuts;256;Veggies_Fresh_Pista.png;1
+930;Veggies Fresh Pista Salted;Food;Nuts;169;Veggies_Fresh_Pista_Salted.png;1
+931;Veggies Fresh Sabja Seed;Food;Condiments;17;Veggies_Fresh_Sabja_Seed.png;1
+932;Veggies Fresh Walnut;Food;Nuts;75;Veggies_Fresh_Walnut.png;1
+933;Vel Brand Special Manjal Thool;Household;Pooja;20;Vel_Brand_Special_Manjal_Thool.png;1
+934;VFSL Macaroni;Food;Pasta;90;Vfsl_Macaroni_Macaroni.png;1
+935;VFSL Pasta;Food;Pasta;90;Vfsl_Pasta_Pasta.png;1
+936;Victory Athisaya Sambrani;Household;Pooja;63;Victory_Sambrani_Athisaya_Sambrani.png;1
+937;Vim Bar Off Box Soap;Household;Dishwashing;45;Vim_Bar_Off_Box_Soap.png;1
+938;Vim Best Ever Dishwasher Cleaning Bar;Household;Dishwashing;10;Vim_Best_Ever_Dishwasher_Cleaning_Bar.png;1
+939;Vim Concentrated Gel Dishwash Cleaner Liquid;Household;Dishwashing;"45;20";Vim_Concentrated_Gel_Dishwash_Cleaner_Liquid.png;1
+940;Vim Dishwash Bar;Household;Dishwashing;10;Vim_Dishwash_Bar.png;1
+941;Vrs Jaggery Powder;Food;Condiments;50;Vrs_Jaggery_Powder.png;1
+942;Vvd Goil Pure Coconut Oil;Food;Oils;70;Vvd_Goil_Pure_Coconut_Oil.png;1
+943;W.T Dry Fruit Seedless Dry Black Grapes;Food;Dried fruit;125;W_T_Dry_Fruit_Seedless_Dry_Black_Grapes.png;1
+944;Washwell Soap;Personal Care;Soap;15;Washwell_Soap.png;1
+945;Wild Ideas Dish Wash Powder;Household;Dishwashing;50;Wild_Ideas_Dish_Wash_Powder.png;1
+946;Wild Ideas Dish Wash Soap;Personal Care;Soap;80;Wild_Ideas_Dish_Wash_Soap.png;1
+947;Wild Ideas Earth Strengthening Hair Oil;Personal Care;Beauty;250;Wild_Ideas_Earth_Strengthening_Hair_Oil.png;1
+948;Wild Ideas Laundry Detergent Powder;Household;Laundry;220;Wild_Ideas_Laundry_Detergent_Powder.png;1
+949;Wild Ideas Rain Revitalizing Hair Oil;Personal Care;Beauty;150;Wild_Ideas_Rain_Revitalizing_Hair_Oil.png;1
+950;Yak Foods Daavat Papad;Food;Savory snacks;64;Yak_Foods_Daavat_Papad.png;1
+951;Yes Nature Jaggery;Food;Condiments;45;Yes_Nature_Jaggery.png;1
+952;Yes Nature Jaggery Powder;Food;Condiments;49;Yes_Nature_Jaggery_Powder.png;1
+953;Yogi Adulsa Cough Syrup;Personal Care;Medicine;65;Yogi_Adulsa_Cough_Syrup.png;1
+954;Zigma Lice Lysc Oil;Personal Care;Health;48;Zigma_Lice_Lysc_Oil.png;1
+955;Zigma Trikadugu Churanam;Food;Spices;120;Zigma_Trikadugu_Churanam.png;1
+956;Zigma Vetpalai Thylam;Food;Oils;120;Zigma_Vetpalai_Thylam.png;1
+957;Zigma Zignidd Powder;Food;Spices;162;Zigma_Zignidd_Powder.png;1
+958;777 Andhra Avakkai Pickle;Food;Condiments;10;777_Andhra_Avakkai_Pickle.png;1
+959;Afrodille Apricots Dried;Food;Dried fruit;180;Afrodille_Apricots_Dried.png;1
+960;Alfia Nuts 'n Frutz;Food;Nuts;390;Alfia_Nuts_n_Frutz.png;1
+961;Amul Spread Cheese;Food;Dairy;80;Amul_Spread_Cheese.png;1
+962;Annapurna Farm Fresh Atta;Food;Flour;26;Annapurna_Farm_Fresh_Atta.png;1
+963;Annapurna Iodised Crystal Salt;Food;Condiments;14;Annapurna_Iodised_Crystal_Salt.png;1
+964;Barari Tunisian Dates;Food;Dried fruit;306;Barari_Tunisian_Dates.png;1
+965;Chamraj Masala Chai Tea;Food;Spices;150;Chamraj_Masala_Chai_Tea.png;1
+966;Chamraj Nilgiri Leaf Tea;Food;Food;100;Chamraj_Nilgiri_Leaf_Tea.png;1
+967;Green Pearl Dried Blueberry;Food;Dried fruit;575;Green_Pearl_Dried_Blueberry.png;1
+968;Green Pearl Dried Cranberry;Food;Dried fruit;275;Green_Pearl_Dried_Cranberry.png;1
+969;Green Pearl Prunes Pitted;Food;Dried fruit;275;Green_Pearl_Prunes_Pitted.png;1
+970;Harima Apple Cider Vinegar;Food;Condiments;165;Harima_Apple_Cider_Vinegar.png;1
+971;Harima Nannari Syrup;Food;Condiments;150;Harima_Nannari_Syrup.png;1
+972;Hershey's Syrup Caramel Flavour;Food;Condiments;220;Hersheys_Syrup_Caramel_Flavour.png;1
+973;Jalani Jaljira;Food;Spices;135;Jalani_Jaljira.png;1
+974;Karachi Bakery Chai Biscuit;Food;Cookies;135;Karachi_Bakery_Chai_Biscuit.png;1
+975;Karachi Bakery Double Delight;Food;Cookies;180;Karachi_Bakery_Double_Delight.png;1
+976;Karachi Bakery Karachi's Cashew Biscuits;Food;Cookies;180;Karachi_Bakery_Karachis_Cashew_Biscuits.png;1
+977;Lee Orchid Jaggery Powder;Food;Condiments;60;Lee_Orchid_Jaggery_Powder.png;1
+978;Lever Ayush Pimple Clear Turmeric Face Wash;Personal Care;Skincare;55;Lever_Ayush_Pimple_Clear_Turmeric_Face_Wash.png;1
+979;Lever Ayush Anti Marks Turmeric Face Wash;Personal Care;Beauty;"127;68";Lever_Ayush_Anti_Marks_Turmeric_Face_Wash.png;1
+980;Mala's Strawberry Crush;Food;Condiments;145;Malas_Strawberry_Crush.png;1
+981;Medjool Plusmp Premium Dates;Food;Dried fruit;900;Medjool_Plusmp_Premium_Dates.png;1
+982;Milky Mist Agmark Ghee;Food;Dairy;"299;67";Milky_Mist_Agmark_Ghee.png;1
+983;Milky Mist Fresh Cream Medium Fat;Food;Dairy;60;Milky_Mist_Fresh_Cream_Medium_Fat.png;1
+984;Mountain Breeze Spearmint Sugar Free;Food;Confectionery;300;Mountain_Breeze_Spearmint_Sugar_Free.png;1
+985;Msv Dry Green Grapes;Food;Dried fruit;"90;35;20";Msv_Dry_Green_Grapes.png;1
+986;Murali Coconut Oil;Food;Oils;250;Murali_Coconut_Oil.png;1
+987;Murali Chekku Kadalai Ennai Groundnut Oil;Food;Condiments;400;Murali_Chekku_Kadalai_Ennai_Groundnut_Oil.png;1
+988;Murali Chekku Nallennai Gingelly Oil;Food;Condiments;500;Murali_Chekku_Nallennai_Gingelly_Oil.png;1
+989;Namaskaar Makhana;Food;Snacks.;240;Namaskaar_Makhana.png;1
+990;Pepsodent Toothpaste;Personal Care;Oral care;"10;50";Pepsodent_Toothpaste.png;1
+991;Pepsodent Whitening Cavity Protection Toothpaste;Personal Care;Oral care;"48;91";Pepsodent_Whitening_Cavity_Protection_Toothpaste.png;1
+992;Pepsodent Complete Toothpaste Toothpaste;Personal Care;Oral care;114;Pepsodent_Complete_Toothpaste_Toothpaste.png;1
+993;Pepsodent Germi Check + Cavity Protection Toothpaste;Personal Care;Oral care;18;Pepsodent_Germi_Check_Cavity_Protection_Toothpaste.png;1
+994;Pepsodent Gumcare+ Expert Protection Toothpaste;Personal Care;Oral care;"20;50";Pepsodent_Gumcare_Expert_Protection_Toothpaste.png;1
+995;Pietro Coricelli Olive Pomace Oil;Food;Oil;690;Pietro_Coricelli_Olive_Pomace_Oil.png;1
+996;Planets King Peanut Chikki;Food;Snacks;70;Planets_King_Peanut_Chikki.png;1
+997;Queen's Rose Seeraga Samba Organic Briyani Rice;Food;Rice;92;Queens_Rose_Seeraga_Samba_Organic_Briyani_Rice.png;1
+998;Real Good Curry Cut Chicken;Food;Poultry;245;Real_Good_Curry_Cut_Chicken.png;1
+999;Real Good Kheema Chicken;Food;Meat;220;Real_Good_Kheema_Chicken.png;1
+1000;Real Good Whole Pre Cut Chicken;Food;Poultry;245;Real_Good_Whole_Pre_Cut_Chicken.png;1
+1001;Rafael Salgado Olive Oil;Food;Oil;315;Rafael_Salgado_Olive_Oil.png;1
+1002;Saccha Moti Makhana;Food;Snacks.;240;Saccha_Moti_Makhana.png;1
+1003;Sensodyne Herbal Multi Care Toothpaste;Personal Care;Oral care;115;Sensodyne_Herbal_Multi_Care_Toothpaste.png;1
+1004;Srivari Jelly Mittai;Food;Confectionery;25;Srivari_Jelly_Mittai.png;1
+1005;Emirates Stamina's Dry Amla With Honey;Food;Condiments;160;Emirates_Staminas_Dry_Amla_With_Honey.png;1
+1006;Star Gram Flour;Food;Flour;16;Star_Gram_Flour.png;1
+1007;Star Maida;Food;Flour;11;Star_Maida.png;1
+1008;Star Rava;Food;Grains;12;Star_Rava.png;1
+1009;Sri Varaha Appalam;Food;Snacks.;78;Sri_Varaha_Appalam.png;1
+1010;MSV Black Grapes;Food;Condiments;"110;40;20";MSV_Black_Grapes.png;1
+1011;MSV Cashew;Food;Nuts;"213;85;43";MSV_Cashew.png;1
+1012;MSV Dry Amla;Food;Condiments;"85;34";MSV_Dry_Amla.png;1
+1013;Siriyanangai Powder;Food;Spices;30;Siriyanangai_Powder.png;1
+1014;TRV Almonds Jumbo;Food;Nuts;"620;140;320";TRV_Almonds_Jumbo.png;1
+1015;TRV Almonds Regular;Food;Nuts;530;TRV_Almonds_Regular.png;1
+1016;TRV Almonds Salted;Food;Nuts;340;TRV_Almonds_Salted.png;1
+1017;TRV Apricot Dry;Food;Nuts;240;TRV_Apricot_Dry.png;1
+1018;TRV Bark (Pattai);Food;Spices;100;TRV_Bark_Pattai.png;1
+1019;TRV Bark (Roll Pattai);Food;Spice;200;TRV_Bark_Roll_Pattai.png;1
+1020;TRV Black Dates;Food;Dried fruit;"280;130";TRV_Black_Dates.png;1
+1021;TRV Candy (Diamond);Food;Condiments;94;TRV_Candy_Diamond.png;1
+1022;TRV Cardamom (Elaichi);Food;Spices;140;TRV_Cardamom_Elaichi.png;1
+1023;TRV Cashew Whole;Food;Nuts;405;TRV_Cashew_Whole.png;1
+1024;TRV Cashew K;Food;Nuts;245;TRV_Cashew_K.png;1
+1025;TRV Cashew Roasted - Chilli;Food;Nuts;370;TRV_Cashew_Roasted_Chilli.png;1
+1026;TRV Cashew Roasted - Salt;Food;Nuts;370;TRV_Cashew_Roasted_Salt.png;1
+1027;TRV Cashew W240;Food;Nuts;"150;660";TRV_Cashew_W240.png;1
+1028;TRV Cashew WW;Food;Nuts;520;TRV_Cashew_WW.png;1
+1029;TRV Cashews Roasted;Food;Spices;370;TRV_Cashews_Roasted.png;1
+1030;TRV Cashews W320;Food;Nuts;580;TRV_Cashews_W320.png;1
+1031;TRV Chery Box;Food;Condiments;100;TRV_Chery_Box.png;1
+1032;TRV Chia Seeds;Food;Condiments;250;TRV_Chia_Seeds.png;1
+1033;TRV Cloves;Food;Spices;70;TRV_Cloves.png;1
+1034;TRV Cucumber Seeds;Food;Nuts;"240;120";TRV_Cucumber_Seeds.png;1
+1035;TRV Dry Black Grapes Seed;Food;Dried fruit;170;TRV_Dry_Black_Grapes_Seed.png;1
+1036;TRV Dry Dates;Food;Dried fruit;110;TRV_Dry_Dates.png;1
+1037;TRV Dry Figs (Afgan Fig);Food;Spices;455;TRV_Dry_Figs_Afgan_Fig.png;1
+1038;TRV Dry Fruits Gift Box (Assorted);Food;Nuts;850;TRV_Dry_Fruits_Gift_Box_Assorted.png;1
+1039;TRV Fenugreek (Venthaiyam);Food;Spices;110;TRV_Fenugreek_Venthaiyam.png;1
+1040;TRV Flax Seeds;Food;Spices;140;TRV_Flax_Seeds.png;1
+1041;TRV Green Raisins;Food;Snacks;190;TRV_Green_Raisins.png;1
+1042;TRV Hazelnuts;Food;Nuts;240;TRV_Hazelnuts.png;1
+1043;TRV Jeera;Food;Spices;150;TRV_Jeera.png;1
+1044;TRV Mustard;Food;Condiments;100;TRV_Mustard.png;1
+1045;TRV Pepper;Food;Spices;"240;130";TRV_Pepper.png;1
+1046;TRV Pine Nuts;Food;Nuts;620;TRV_Pine_Nuts.png;1
+1047;TRV Pista Regular;Food;Nuts;"405;260";TRV_Pista_Regular.png;1
+1048;TRV Pista Salted;Food;Nuts;"650;180";TRV_Pista_Salted.png;1
+1049;TRV Pumpkin Seeds;Food;Nuts;150;TRV_Pumpkin_Seeds.png;1
+1050;TRV Raisins (Afghan Grapes);Food;Dried fruit;"100;170";TRV_Raisins_Afghan_Grapes.png;1
+1051;TRV Dates (Khajur);Food;Spices;250;TRV_Dates_Khajur.png;1
+1052;TRV Sabja Seeds;Food;Spices;150;TRV_Sabja_Seeds.png;1
+1053;TRV Saunf;Food;Spices;120;TRV_Saunf.png;1
+1054;TRV Soroli;Food;Spices;170;TRV_Soroli.png;1
+1055;TRV Sunflower Seeds;Food;Nuts and seeds;240;TRV_Sunflower_Seeds.png;1
+1056;TRV Sweet Amla;Food;Health drink;140;TRV_Sweet_Amla.png;1
+1057;TRV Tutty Fruity Box;Food;Confectionery;100;TRV_Tutty_Fruity_Box.png;1
+1058;TRV Walnuts;Food;Nuts;"520;230";TRV_Walnuts.png;1
+1059;TRV Walnuts with Shell;Food;Nuts;350;TRV_Walnuts_with_Shell.png;1
+1060;Yardley London Imperial Jasmine Soap;Personal Care;Bath;180;Yardley_London_Imperial_Jasmine_Soap.jpg;1
