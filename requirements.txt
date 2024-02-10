@@ -2,7 +2,7 @@ Flask
 Pillow
 opencv-python
 pillow
-google_generativeai
+google-generativeai
 googletrans
 matplotlib
 plotly
