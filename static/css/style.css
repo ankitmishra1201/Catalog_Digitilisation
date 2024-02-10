@@ -164,10 +164,11 @@ header {
   display: flex;
   flex-direction: column;
   padding: 5px 30px;
-  height: 100vh;
+  height: 100%;
   background-image: linear-gradient(to bottom, #defdff, #48EEF9);
+  background-size: 100% 100%; /* Ensure the background covers the entire element */
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .shop-images {
