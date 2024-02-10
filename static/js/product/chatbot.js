@@ -37,13 +37,16 @@ const generateResponse = (chatElement) => {
 
     // Send POST request to API, get response and set the reponse as paragraph text
     fetch(API_URL, requestOptions).then(res => res.json()).then(data => {
-        if(userMessage=="How much calories does the product has"){
+        if(userMessage=="How much calories does the product have"){
             messageElement.textContent = "It has 150 Calories"
 
         }
-        else if(userMessage=="Is it fssat verified?"){
+        else if(userMessage=="Is it fssat certified?"){
             messageElement.textContent = "Yes, It is fssat verified"
 
+        }
+        else{
+        messageElement,textContent="I am sorry, I couldn't answer this query"
         }
 
     }).catch(() => {

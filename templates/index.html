@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
 
@@ -22,9 +22,10 @@
             </div>
         </div>
     </nav>
+    </header>
 
-    
-     
+
+
 <!-- The Modal -->
 <div class = "modal-container">
   <div id="imageUploadModal" class="modal" style="display: none;">
@@ -39,14 +40,16 @@
       </form>
     </div>
   </div>
-</div>
+  </div>
 
-  <section class="shop-section" id="csvData">
+
+    <section class="shop-section" id="csvData">
       {% for i in range(count) %}
       <form action="/view-form" method="post" enctype="multipart/form-data" id="imageForm">
           <div class="shop-link" style="align-items: center;">
               <img src="{{images[i]}}" class="item-image" name="image-url" >
               <input type="hidden" name="image" id="imageUrlInput" value="" style="display: none;">
+              <h4 class="title">{{names[i]}}</h4>
               <div class="card__info">
                   <i class="materials-icon">price</i>{{prices[i]}}
                   <div>
@@ -58,6 +61,8 @@
       </form>
       {% endfor %}
   </section>
+
+  <a href="/results"><button type="button"></button>Find Results</a>
 
     <footer>
       <a href="#" class="footer-title">
@@ -80,7 +85,7 @@
 
     // Submit the form
     form.submit();
-    
+
   }
 
   document.addEventListener('DOMContentLoaded', function () {
