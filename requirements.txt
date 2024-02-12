@@ -1,9 +1,10 @@
 Flask
 Pillow
-opencv-python
 pillow
 google-generativeai
 googletrans
 matplotlib
 plotly
 pandas
+kaleido
+gunicorn
