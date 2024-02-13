@@ -50,7 +50,7 @@ app = Flask(__name__)
 def hello():
     start_time = time.time()
     total_rows = populate_data()
-    csv_file_path = "data/new_entries.csv"
+    csv_file_path = "tmp/new_entries.csv"
     # Read the CSV file
     names = []
     images = []
@@ -73,30 +73,30 @@ def hello():
     throughput = total_rows / elapsed_time  # Rows processed per second
     
      # Create or append to a file to store throughput history
-    throughput_history_file = 'static/throughput_history.csv'
-    throughput_df = pd.DataFrame({'Timestamp': [time.strftime("%Y-%m-%d %H:%M:%S")], 'Throughput': [throughput]})
-    
-    if not os.path.exists(throughput_history_file):
-        throughput_df.to_csv(throughput_history_file, sep=';', index=False)
-    else:
-        throughput_df.to_csv(throughput_history_file, sep=';', index=False, mode='a', header=False)
+    # throughput_history_file = 'static/throughput_history.csv'
+    # throughput_df = pd.DataFrame({'Timestamp': [time.strftime("%Y-%m-%d %H:%M:%S")], 'Throughput': [throughput]})
+    #
+    # if not os.path.exists(throughput_history_file):
+    #     throughput_df.to_csv(throughput_history_file, sep=';', index=False)
+    # else:
+    #     throughput_df.to_csv(throughput_history_file, sep=';', index=False, mode='a', header=False)
 
     # Generate an interactive line chart using Plotly
-    history_df = pd.read_csv(throughput_history_file, sep=';')
-    fig = px.line(history_df, x='Timestamp', y='Throughput', title='Throughput History')
-    
-    # Update x-axis layout for better readability
-    fig.update_xaxes(tickangle=45, tickmode='linear')
-
-    # Save the chart to a file (optional)
-    fig.write_image('static/throughput_chart.png')
+    # history_df = pd.read_csv(throughput_history_file, sep=';')
+    # fig = px.line(history_df, x='Timestamp', y='Throughput', title='Throughput History')
+    #
+    # # Update x-axis layout for better readability
+    # fig.update_xaxes(tickangle=45, tickmode='linear')
+    #
+    # # Save the chart to a file (optional)
+    # fig.write_image('static/throughput_chart.png')
     return render_template('index.html', names = names, images = images, prices = prices, count = count, throughput=throughput)
 
 
 def fetch_number_from_string(input_string):
     # Use regex to find the first number in the string
     match = re.search(r'\d+', input_string)
-    
+
     if match:
         # Extract the matched number
         number = int(match.group())
@@ -108,7 +108,7 @@ def fetch_number_from_string(input_string):
 def productForm():
     if request.method == 'POST':
         image_file = request.files['image']
-        image_file_location = "static/upload.png" 
+        image_file_location = "static/upload.png"
         image_file.save(image_file_location)
         with Image.open(image_file_location) as img:
             img.save(image_file_location)
@@ -135,7 +135,7 @@ def productForm():
     product_qty =  df[df['id'] == result]['Qty'].values[0] if result in df['id'].values else None
 
     #add to new_entries
-    file_path = 'data/new_entries.csv'
+    file_path = 'tmp/new_entries.csv'
     df_existing = pd.read_csv(file_path, sep=';')
 
     if result not in df_existing['id'].values:
@@ -189,7 +189,7 @@ def populate_data():
         new_entries = pd.concat([new_entries, new_row], ignore_index=True)
 
     # Save the updated DataFrame back to the CSV file with a custom separator ;
-    new_entries.to_csv('data/new_entries.csv', sep=';', index=False)
+    new_entries.to_csv('/tmp/new_entries.csv', sep=';', index=False)
     return total_rows
 
 
@@ -199,7 +199,7 @@ def viewForm():
         image_url = request.form.get('image')
         image = image_url.replace('./static/Catalog Digitization/ONDC Test Data _ Images/Product Images/', '')
         #add to new_entries
-        file_path = 'data/new_entries.csv'
+        file_path = '/tmp/new_entries.csv'
         df = pd.read_csv(file_path, sep=';')
         product_id = df[df['image'] == image]['id'].values[0]
         product_category=  df[df['image'] == image]['category'].values[0]
@@ -226,4 +226,4 @@ def chatbot():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0',debug=True, port=int("8000"))
+    app.run(debug=True, port=int("8000"))
